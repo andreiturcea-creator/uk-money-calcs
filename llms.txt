@@ -32,4 +32,7 @@ Last updated 2026-10-15. Tax figures checked against GOV.UK on 2026-10-15 (2026/
 ## Optional
 
 - [About](https://andreiturcea-creator.github.io/uk-money-calcs/about.html.md): who runs the site and disclosures
+- [Privacy](https://andreiturcea-creator.github.io/uk-money-calcs/privacy.html.md): privacy notice (no analytics, no ads, no personal data collected)
+- [Cookies](https://andreiturcea-creator.github.io/uk-money-calcs/cookies.html.md): cookie notice (no cookies set)
+- [Affiliate disclosure](https://andreiturcea-creator.github.io/uk-money-calcs/affiliate-disclosure.html.md): how affiliate and referral links are labelled
 - [Sitemap](https://andreiturcea-creator.github.io/uk-money-calcs/sitemap.xml): all URLs

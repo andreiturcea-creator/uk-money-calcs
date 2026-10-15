@@ -8,6 +8,8 @@ Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/about.html.md)
 
+**General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
+
 An independent site with calculators that are maintained and checked automatically against GOV.UK rates. Affiliate links are labelled, and they never change the results.
 
 ---
