@@ -106,6 +106,8 @@ open(f"{d}/sample.csv","w").write("Date,Description,Type,SA103 category,Amount\n
 seo_pages.build(B)
 import monetise
 monetise.build(B)
+import theme
+theme.build(B)
 for s in ["uk-money-calcs","selfhost-ai-dir","uk-freelancer-kit"]:
     dd=f"{B}/{s}/site"; urls=[f for f in os.listdir(dd) if f.endswith(".html")]
     open(f"{dd}/sitemap.xml","w").write('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f"<url><loc>{SB(s)}/{'' if u=='index.html' else u}</loc><lastmod>2026-10-15</lastmod></url>" for u in sorted(urls))+"</urlset>")

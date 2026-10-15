@@ -29,9 +29,9 @@ def partner_box(site):
         return ""
     items = "".join(f'<li><a href="{html.escape(s["url"])}" rel="sponsored noopener">{html.escape(s["name"])}</a> <span class=tag>Affiliate link</span>: {html.escape(s["blurb"])}</li>' for s in live)
     return (f'<div class=card id="partners"><b>Tools some readers use</b> <span class=tag>Contains affiliate links</span><ul>{items}</ul>'
-            f'<p style="font-size:.85rem">If you sign up through these links we may earn a commission, at no extra cost to you. It never changes our figures or guides. <a href="affiliate-disclosure.html">How affiliate links work here</a>.</p></div>')
+            f'<p class="small">If you sign up through these links we may earn a commission, at no extra cost to you. It never changes our figures or guides. <a href="affiliate-disclosure.html">How affiliate links work here</a>.</p></div>')
 
-NOTE = '<p class="note" style="background:#f4f6fb;border-left:4px solid #2b59c3;padding:8px 12px;font-size:.9rem"><b>General information, not tax or financial advice.</b> Check GOV.UK or speak to a qualified adviser about your own situation.</p>'
+NOTE = '<p class="note"><b>General information, not tax or financial advice.</b> Check GOV.UK or speak to a qualified adviser about your own situation.</p>'
 CTA_TOP = (f'<div class="card sp kit-cta" id="kit-top"><b>Keeping your own records?</b> The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: '
            f'an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. '
            f'<a href="{KIT}">See what is inside</a> · <a href="{BUY}">Get the kit (£9)</a></div>')
