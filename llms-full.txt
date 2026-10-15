@@ -1,0 +1,640 @@
+# UK Money Calcs — full content
+
+> Free UK personal-finance calculators for the 2026/27 tax year (England, Wales and Northern Ireland): take-home pay, self-employed tax, dividend tax, student loan repayments, Stamp Duty Land Tax, VAT and the VAT registration threshold. Each calculator page states its formula, rates and worked examples in plain text, with GOV.UK sources.
+
+Generated 2026-10-15. Each section below is one page.
+
+<!-- https://andreiturcea-creator.github.io/uk-money-calcs/about.html -->
+# About | UK Money Calcs
+
+Source: https://andreiturcea-creator.github.io/uk-money-calcs/about.html
+Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
+
+
+**Short answer:** UK Money Calcs is an independent site of free UK tax and money calculators, with rates checked against GOV.UK. It is not financial advice; affiliate links, if any, are labelled.
+
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/about.html.md)
+
+An independent site with calculators that are maintained and checked automatically against GOV.UK rates. Affiliate links are labelled, and they never change the results.
+
+---
+Disclaimer: estimates for information only, not financial, tax or legal advice.
+
+
+<!-- https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html -->
+# Dividend Tax Calculator 2026/27 UK | UK Money Calcs
+
+Source: https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html
+Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
+
+
+**Short answer:** For 2026/27 the first £500 of dividends is tax-free, then dividends are taxed at 10.75% (basic band), 35.75% (higher) and 39.35% (additional). GOV.UK's example of £29,570 wages and £3,000 dividends gives £268.75 of dividend tax.
+
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html.md)
+
+## How is it calculated?
+
+Your Personal Allowance is used against salary first, then dividends. The first £500 of dividends is taxed at 0% but still uses up band. Dividends that fall in the basic band are taxed at 10.75%, the higher band at 35.75% and the additional band at 39.35%. This does not work out the Income Tax on your salary itself. Scotland: dividend rates are UK-wide, but this tool uses the rUK bands to decide which band applies.
+
+Example from GOV.UK: £29,570 wages and £3,000 dividends gives £0 on £500 and 10.75% on £2,500 of dividends.
+
+**GOV.UK sources (checked 15 October 2026):**
+
+- [https://www.gov.uk/tax-on-dividends](https://www.gov.uk/tax-on-dividends)
+- [https://www.gov.uk/income-tax-rates](https://www.gov.uk/income-tax-rates)
+
+**Related**
+
+- [Self-employed tax calculator](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html)
+- [Take-home pay calculator](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html)
+- [UK Sole Trader Kit (spreadsheet)](https://andreiturcea-creator.github.io/uk-freelancer-kit/)
+
+## What is the formula, in plain text?
+
+Personal Allowance is used against salary first, then dividends. The first £500 of dividends is taxed at 0% but still uses band. Remaining dividends are taxed at 10.75% within the basic band (first £37,700 of taxable income), 35.75% up to £125,140 total income and 39.35% above.
+
+## What rates and thresholds apply?
+
+| Item | 2026/27 |
+|---|---|
+| Dividend allowance | £500 |
+| Basic rate | 10.75% |
+| Higher rate | 35.75% |
+| Additional rate | 39.35% |
+
+## What are some worked examples?
+
+| Salary / other income | Dividends | Dividend tax |
+|---|---|---|
+| £29,570 | £3,000 | £268.75 |
+| £12,570 | £30,000 | £3,171.25 |
+| £50,270 | £10,000 | £3,396.25 |
+| £0 | £20,000 | £744.98 |
+| £12,570 | £60,000 | £11,971.25 |
+
+First row is GOV.UK's own example. Tax on the salary itself is not included.
+
+GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/tax-on-dividends](https://www.gov.uk/tax-on-dividends) · [https://www.gov.uk/income-tax-rates](https://www.gov.uk/income-tax-rates)
+
+Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+
+## Frequently asked questions
+
+### What is the dividend allowance for 2026/27?
+
+£500. You pay no tax on the first £500 of dividends, though they still count towards your tax band.
+
+### What are the dividend tax rates for 2026/27?
+
+GOV.UK lists 10.75% for the basic rate, 35.75% for the higher rate and 39.35% for the additional rate, from 6 April 2026 to 5 April 2027.
+
+### Do I pay tax on dividends in an ISA?
+
+No. Dividends from shares held in an ISA are tax-free.
+
+### Do I pay National Insurance on dividends?
+
+No. National Insurance is not charged on dividends, which is why many company directors take a small salary and the rest as dividends.
+
+---
+Disclaimer: estimates for information only, not financial, tax or legal advice.
+
+
+<!-- https://andreiturcea-creator.github.io/uk-money-calcs/income-tax-bands-2026-27.html -->
+# Income Tax and National Insurance Rates 2026/27 (UK) | UK Money Calcs
+
+Source: https://andreiturcea-creator.github.io/uk-money-calcs/income-tax-bands-2026-27.html
+Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
+
+
+**Short answer:** For 2026/27 (6 April 2026 to 5 April 2027) in England, Wales and NI: Personal Allowance £12,570, basic rate 20% to £50,270, higher rate 40% to £125,140, additional rate 45% above. Employee NI is 8% then 2%, Class 4 NI 6% then 2%, and dividends are taxed at 10.75%, 35.75% and 39.35% after a £500 allowance.
+
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/income-tax-bands-2026-27.html.md)
+
+The 2026/27 tax year runs from 6 April 2026 to 5 April 2027.
+
+## What are the Income Tax bands for 2026/27?
+
+| Band | Taxable income | Rate |
+|---|---|---|
+| Personal Allowance | Up to £12,570 | 0% |
+| Basic | £12,571–£50,270 | 20% |
+| Higher | £50,271–£125,140 | 40% |
+| Additional | Over £125,140 | 45% |
+
+## What are employee National Insurance rates for 2026/27?
+
+| Weekly earnings | Monthly | Rate |
+|---|---|---|
+| £129–£242 | £559–£1,048 | 0% |
+| £242.01–£967 | £1,048.01–£4,189 | 8% |
+| Over £967 | Over £4,189 | 2% |
+
+## What National Insurance do self-employed people pay?
+
+Class 4: 6% on profits £12,570–£50,270, 2% above. Class 2 is treated as paid at profits of £7,105 or more; the voluntary rate is £3.65 a week.
+
+## What are the dividend tax rates for 2026/27?
+
+£500 allowance; 10.75% basic, 35.75% higher, 39.35% additional.
+
+## Which calculators use these rates?
+
+[Take-home pay](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html) · [Self-employed tax](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html) · [Dividend tax](https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html) · [Student loan](https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html) · [VAT threshold](https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html)
+
+**GOV.UK sources (checked 15 October 2026):**
+
+- [https://www.gov.uk/income-tax-rates](https://www.gov.uk/income-tax-rates)
+- [https://www.gov.uk/national-insurance-rates-letters](https://www.gov.uk/national-insurance-rates-letters)
+- [https://www.gov.uk/self-employed-national-insurance-rates](https://www.gov.uk/self-employed-national-insurance-rates)
+- [https://www.gov.uk/tax-on-dividends](https://www.gov.uk/tax-on-dividends)
+
+## Frequently asked questions
+
+### What are the Income Tax bands for 2026/27?
+
+In England, Wales and Northern Ireland: Personal Allowance up to £12,570 at 0%, basic rate £12,571 to £50,270 at 20%, higher rate £50,271 to £125,140 at 40%, and additional rate over £125,140 at 45%.
+
+### What are employee National Insurance rates for 2026/27?
+
+For category A employees: 8% on earnings between £242.01 and £967 a week (£1,048.01 to £4,189 a month), and 2% above £967 a week.
+
+### What happens to the Personal Allowance over £100,000?
+
+It goes down by £1 for every £2 of adjusted net income over £100,000, so it is zero at £125,140 or above.
+
+### Are Scottish bands different?
+
+Yes. Scotland has its own Income Tax bands; this page covers the rest of the UK.
+
+---
+Disclaimer: estimates for information only, not financial, tax or legal advice.
+
+
+<!-- https://andreiturcea-creator.github.io/uk-money-calcs/index.html -->
+# UK Money Calculators: take-home pay, stamp duty, VAT
+
+Source: https://andreiturcea-creator.github.io/uk-money-calcs/
+Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
+
+
+**Short answer:** Free UK calculators for 2026/27: take-home pay, self-employed tax, dividend tax, student loan, Stamp Duty and VAT. Every calculator states its formula, rates and worked examples in plain text, with GOV.UK sources.
+
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/index.html.md)
+
+Fast and private: everything runs in your browser and nothing is stored.
+
+[**UK Take-Home Pay Calculator 2026/27**](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html)
+Work out your take-home pay after income tax, National Insurance, pension and student loan (England, Wales and NI).
+
+[**Stamp Duty Calculator England 2026**](https://andreiturcea-creator.github.io/uk-money-calcs/stamp-duty.html)
+Stamp Duty Land Tax calculator for England and Northern Ireland, covering first-time buyer relief and the 5% surcharge on additional properties.
+
+[**VAT Calculator UK: Add or Remove 20% VAT**](https://andreiturcea-creator.github.io/uk-money-calcs/vat.html)
+Add VAT to a price or take it off, at 20%, 5% or 0%.
+
+[**Pro Rata Salary Calculator UK**](https://andreiturcea-creator.github.io/uk-money-calcs/pro-rata-salary.html)
+Turn a full-time salary into a part-time one, by hours or days per week.
+
+## Which 2026/27 calculators are new?
+
+[**Self-employed tax calculator 2026/27**](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html)
+Income Tax and Class 4 NI on sole trader profits.
+
+[**Dividend tax calculator 2026/27**](https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html)
+£500 allowance; 10.75%, 35.75% and 39.35% rates.
+
+[**Student loan repayment calculator**](https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html)
+Plans 1, 2, 4, 5 and Postgraduate.
+
+[**VAT threshold checker**](https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html)
+Rolling 12-month £90,000 test.
+
+[**Income Tax and NI rates 2026/27**](https://andreiturcea-creator.github.io/uk-money-calcs/income-tax-bands-2026-27.html)
+All the bands on one page, with GOV.UK sources.
+
+**Self-employed?** Free guides on [Making Tax Digital for Income Tax](https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-mtd.html), [payments on account](https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-payments-on-account.html) and the [UK Sole Trader Kit](https://andreiturcea-creator.github.io/uk-freelancer-kit/).
+
+**Partner offers: coming soon.** Any sponsored or affiliate link will be clearly labelled.
+
+---
+Disclaimer: estimates for information only, not financial, tax or legal advice.
+
+
+<!-- https://andreiturcea-creator.github.io/uk-money-calcs/pro-rata-salary.html -->
+# Pro Rata Salary Calculator UK | UK Money Calcs
+
+Source: https://andreiturcea-creator.github.io/uk-money-calcs/pro-rata-salary.html
+Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
+
+
+**Short answer:** Pro rata salary = full-time salary × your hours ÷ full-time hours. A £30,000 full-time salary at 22.5 of 37.5 hours a week is £18,000 a year.
+
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/pro-rata-salary.html.md)
+
+##
+
+Holiday entitlement is pro-rated in the same way: 5.6 weeks × your days per week.
+
+## What is the formula, in plain text?
+
+Pro rata salary = full-time salary × (your hours per week ÷ full-time hours per week). The same works with days: full-time salary × (your days ÷ full-time days). Statutory holiday = 5.6 weeks × your working days per week.
+
+## What rates and thresholds apply?
+
+| Item | Value |
+|---|---|
+| Statutory holiday entitlement | 5.6 weeks a year (capped at 28 days) |
+
+## What are some worked examples?
+
+| Full-time salary | Full-time week | Your week | Pro rata salary |
+|---|---|---|---|
+| £30,000 | 37.5 hours | 22.5 hours | £18,000 |
+| £25,000 | 5 days | 3 days | £15,000 |
+| £42,000 | 40 hours | 30 hours | £31,500 |
+| £36,000 | 37.5 hours | 15 hours | £14,400 |
+
+Holiday example: 3 days a week × 5.6 = 16.8 days. The 5.6-week figure is long-standing statutory entitlement but was not part of tonight's GOV.UK rate check; confirm on GOV.UK.
+
+GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/holiday-entitlement-rights](https://www.gov.uk/holiday-entitlement-rights)
+
+Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+
+---
+Disclaimer: estimates for information only, not financial, tax or legal advice.
+
+
+<!-- https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html -->
+# Self-Employed Tax Calculator 2026/27 (Income Tax + Class 4 NI) | UK Money Calcs
+
+Source: https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html
+Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
+
+
+**Short answer:** In 2026/27 a sole trader in England, Wales or NI pays Income Tax of 20% on profit from £12,570 to £50,270 (40% to £125,140, 45% above) plus Class 4 NI of 6% on £12,570 to £50,270 and 2% above. On £40,000 profit that is £5,486 tax plus £1,646 Class 4 NI, £7,132 in total.
+
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html.md)
+
+Enter your expected profit (income minus allowable expenses) for 6 April 2026 to 5 April 2027.
+
+## What 2026/27 rates does it use?
+
+| Item | 2026/27 |
+|---|---|
+| Personal Allowance | £12,570 (reduced by £1 for every £2 of adjusted net income over £100,000) |
+| Basic / higher / additional rate | 20% to £50,270 · 40% to £125,140 · 45% above |
+| Class 4 NI | 6% on £12,570–£50,270 · 2% above |
+| Class 2 NI | Treated as paid if profits £7,105+; voluntary £3.65/week below |
+
+Simplification: Class 4 is worked out on profit alone. When you have a salary too, the extra Income Tax is shown as the tax on (salary + profit) minus the tax on salary alone. Payments on account are not included.
+
+**GOV.UK sources (checked 15 October 2026):**
+
+- [https://www.gov.uk/income-tax-rates](https://www.gov.uk/income-tax-rates)
+- [https://www.gov.uk/self-employed-national-insurance-rates](https://www.gov.uk/self-employed-national-insurance-rates)
+
+**UK Sole Trader Kit (£9):** income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, payments-on-account reminder and an invoice template, for Google Sheets and Excel. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Buy, £9](https://turceapaul.gumroad.com/l/bmykeg)
+
+**Related**
+
+- [Take-home pay calculator (employees)](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html)
+- [Dividend tax calculator](https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html)
+- [VAT threshold checker (£90,000)](https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html)
+- [Payments on account explained](https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-payments-on-account.html)
+- [Making Tax Digital for Income Tax: who and when](https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-mtd.html)
+
+## What is the formula, in plain text?
+
+Profit = turnover − allowable expenses. Income Tax = 20% of profit from £12,570 to £50,270 + 40% to £125,140 + 45% above (Personal Allowance tapers by £1 per £2 over £100,000). Class 4 NI = 6% of profit from £12,570 to £50,270 + 2% above. With other income, the extra Income Tax = tax on (other income + profit) − tax on other income alone.
+
+## What are some worked examples?
+
+| Profit (no other income) | Income Tax | Class 4 NI | Total | Set aside a month |
+|---|---|---|---|---|
+| £20,000 | £1,486 | £446 | £1,932 | £161 |
+| £30,000 | £3,486 | £1,046 | £4,532 | £378 |
+| £40,000 | £5,486 | £1,646 | £7,132 | £594 |
+| £60,000 | £11,432 | £2,457 | £13,889 | £1,157 |
+| £110,000 | £33,432 | £3,457 | £36,889 | £3,074 |
+
+Class 2 NI is treated as paid at profits of £7,105 or more (voluntary £3.65 a week below). Payments on account are not included. Scotland Income Tax bands are not covered.
+
+GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/income-tax-rates](https://www.gov.uk/income-tax-rates) · [https://www.gov.uk/self-employed-national-insurance-rates](https://www.gov.uk/self-employed-national-insurance-rates)
+
+Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+
+## Frequently asked questions
+
+### How much tax does a self-employed person pay in 2026/27?
+
+In England, Wales and Northern Ireland you pay Income Tax on profits above the £12,570 Personal Allowance at 20% up to £50,270, 40% up to £125,140 and 45% above. You also pay Class 4 National Insurance of 6% on profits between £12,570 and £50,270 and 2% above £50,270.
+
+### Do I still pay Class 2 National Insurance?
+
+No, not if your profits are £7,105 or more. GOV.UK says Class 2 is treated as paid to protect your National Insurance record. Below £7,105 you can choose to pay voluntary Class 2 at £3.65 a week in 2026/27.
+
+### Is tax worked out on turnover or profit?
+
+On profit: your self-employed income minus allowable expenses. You can use the £1,000 trading allowance instead of claiming expenses.
+
+### Does this cover Scotland?
+
+No. Scotland has different Income Tax bands. Class 4 National Insurance is the same across the UK.
+
+---
+Disclaimer: estimates for information only, not financial, tax or legal advice.
+
+
+<!-- https://andreiturcea-creator.github.io/uk-money-calcs/stamp-duty.html -->
+# Stamp Duty Calculator England 2026 | UK Money Calcs
+
+Source: https://andreiturcea-creator.github.io/uk-money-calcs/stamp-duty.html
+Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
+
+
+**Short answer:** In England and Northern Ireland, Stamp Duty Land Tax is 0% up to £125,000, 2% to £250,000, 5% to £925,000, 10% to £1.5 million and 12% above; a £295,000 home costs £4,750. First-time buyers pay nothing up to £300,000 and 5% from £300,001 to £500,000; additional homes pay 5% on top of each band.
+
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/stamp-duty.html.md)
+
+##
+
+Rates from 1 April 2025: 0% up to £125k, 2% £125k–£250k, 5% £250k–£925k, 10% £925k–£1.5m, 12% above. First-time buyers pay 0% up to £300k and 5% from £300k to £500k; relief is lost above £500k. Additional homes pay 5% on top of each band.
+
+## What is the formula, in plain text?
+
+SDLT is charged in slices: 0% on the first £125,000, 2% on £125,001–£250,000, 5% on £250,001–£925,000, 10% on £925,001–£1.5m and 12% above. First-time buyers (price up to £500,000): 0% up to £300,000 and 5% on £300,001–£500,000. Additional residential property: add 5 percentage points to every slice.
+
+## What rates and thresholds apply?
+
+| Portion of price | Standard rate | Additional property | First-time buyer (price ≤ £500,000) |
+|---|---|---|---|
+| Up to £125,000 | 0% | 5% | 0% |
+| £125,001–£250,000 | 2% | 7% | 0% |
+| £250,001–£300,000 | 5% | 10% | 0% |
+| £300,001–£500,000 | 5% | 10% | 5% |
+| £500,001–£925,000 | 5% | 10% | relief not available |
+| £925,001–£1.5m | 10% | 15% | relief not available |
+| Over £1.5m | 12% | 17% | relief not available |
+
+## What are some worked examples?
+
+| Price | Buyer | SDLT |
+|---|---|---|
+| £295,000 | Moving home (GOV.UK example) | £4,750 |
+| £500,000 | First-time buyer (GOV.UK example) | £10,000 |
+| £400,000 | Moving home | £10,000 |
+| £250,000 | Additional property | £15,000 |
+| £1,000,000 | Moving home | £43,750 |
+
+Rates in force from 1 April 2025, checked against GOV.UK on 15 October 2026. Not covered: the 2% non-UK-resident surcharge, leasehold rent (net present value), companies, and Scotland (LBTT) or Wales (LTT).
+
+GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/stamp-duty-land-tax/residential-property-rates](https://www.gov.uk/stamp-duty-land-tax/residential-property-rates)
+
+Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+
+---
+Disclaimer: estimates for information only, not financial, tax or legal advice.
+
+
+<!-- https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html -->
+# Student Loan Repayment Calculator UK (Plan 1, 2, 4, 5, Postgrad) | UK Money Calcs
+
+Source: https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html
+Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
+
+
+**Short answer:** You repay 9% of income above your plan threshold (Plan 1 £26,900, Plan 2 £29,385, Plan 4 £33,795, Plan 5 £25,000) and 6% above £21,000 for a Postgraduate Loan. These are the thresholds GOV.UK shows today; GOV.UK does not label them with a tax year, so they are not confirmed as 2026/27 figures.
+
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html.md)
+
+| Plan | Yearly threshold | Rate |
+|---|---|---|
+| Plan 1 | £26,900 | 9% |
+| Plan 2 | £29,385 | 9% |
+| Plan 4 | £33,795 | 9% |
+| Plan 5 | £25,000 | 9% |
+| Postgraduate | £21,000 | 6% |
+
+**Note:** these are the thresholds GOV.UK shows today. The GOV.UK page does not label them with a tax year, so we have not been able to confirm them as 2026/27 figures. Employers deduct repayments based on each pay period, so a bonus month can cost more than this annual estimate. If you have more than one undergraduate plan, you repay 9% over the lowest threshold.
+
+**GOV.UK sources (checked 15 October 2026):**
+
+- [https://www.gov.uk/repaying-your-student-loan/what-you-pay](https://www.gov.uk/repaying-your-student-loan/what-you-pay)
+
+**Related**
+
+- [Take-home pay calculator](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html)
+- [Self-employed tax calculator](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html)
+
+## What is the formula, in plain text?
+
+Yearly repayment = 9% × (income − plan threshold) for Plans 1, 2, 4 and 5, plus 6% × (income − £21,000) for a Postgraduate Loan. Nothing is due below the threshold. The balance owed does not affect repayments.
+
+## What are some worked examples?
+
+| Income | Plan | Yearly | Monthly |
+|---|---|---|---|
+| £40,000 | Plan 2 | £955 | £80 |
+| £30,000 | Plan 1 | £279 | £23 |
+| £50,000 | Plan 5 | £2,250 | £188 |
+| £35,000 | Postgraduate only | £840 | £70 |
+| £25,000 | Plan 2 | £0 | £0 |
+
+UNCONFIRMED FOR 2026/27: thresholds are as shown on GOV.UK on 15 October 2026, but GOV.UK does not label them with a tax year.
+
+GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/repaying-your-student-loan/what-you-pay](https://www.gov.uk/repaying-your-student-loan/what-you-pay)
+
+Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+
+## Frequently asked questions
+
+### What are the student loan repayment thresholds?
+
+GOV.UK currently shows yearly thresholds of £26,900 (Plan 1), £29,385 (Plan 2), £33,795 (Plan 4), £25,000 (Plan 5) and £21,000 (Postgraduate Loan). The page does not label these with a tax year, so check GOV.UK if you are planning for a later year.
+
+### How much do I repay?
+
+9% of income over the threshold on Plans 1, 2, 4 and 5, and 6% over the threshold on a Postgraduate Loan.
+
+### I have a plan and a Postgraduate Loan. Do I pay both?
+
+Yes. The Postgraduate Loan 6% is charged on top of the 9% for your undergraduate plan.
+
+### Does the amount I owe change my repayments?
+
+No. Repayments depend only on your income, not on your balance.
+
+---
+Disclaimer: estimates for information only, not financial, tax or legal advice.
+
+
+<!-- https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html -->
+# UK Take-Home Pay Calculator 2026/27 | UK Money Calcs
+
+Source: https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html
+Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
+
+
+**Short answer:** On a £35,000 salary in 2026/27 (England, Wales, NI, no pension or student loan) you take home about £28,720 a year (£2,393 a month) after £4,486 Income Tax and £1,794 National Insurance. Tax is 20% from £12,570 to £50,270, 40% to £125,140 and 45% above; employee NI is 8% then 2%.
+
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html.md)
+
+## How is it calculated?
+
+Personal allowance £12,570 (tapered by £1 per £2 above £100,000). Basic rate 20% to £50,270, higher 40% to £125,140, additional 45% above. Employee Class 1 NI: 8% between £12,570 and £50,270, 2% above. Thresholds are frozen until April 2031. Scotland uses different income tax bands, which this version does not cover yet.
+
+Sources: [GOV.UK Income Tax rates](https://www.gov.uk/income-tax-rates) · [GOV.UK NI rates](https://www.gov.uk/national-insurance-rates-letters) · [GOV.UK student loan thresholds](https://www.gov.uk/repaying-your-student-loan/what-you-pay). Related: [self-employed tax](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html) · [dividend tax](https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html) · [student loan](https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html) · [2026/27 rates](https://andreiturcea-creator.github.io/uk-money-calcs/income-tax-bands-2026-27.html)
+
+## What is the formula, in plain text?
+
+Take-home = gross salary − pension (salary sacrifice) − Income Tax − employee National Insurance − student loan. Income Tax = 20% of income from £12,570 to £50,270 + 40% from £50,270 to £125,140 + 45% above (the £12,570 Personal Allowance falls by £1 for every £2 over £100,000). Employee NI = 8% of earnings from £12,570 to £50,270 + 2% above. Student loan = 9% (6% Postgraduate) of income above the plan threshold.
+
+## What rates and thresholds apply?
+
+| Item | 2026/27 (England, Wales, NI) |
+|---|---|
+| Personal Allowance | £12,570 (tapered above £100,000) |
+| Basic rate | 20% on £12,571–£50,270 |
+| Higher rate | 40% on £50,271–£125,140 |
+| Additional rate | 45% over £125,140 |
+| Employee NI (category A) | 8% on £12,570–£50,270 a year; 2% above |
+
+## What are some worked examples?
+
+| Gross salary | Income Tax | Employee NI | Take-home a year | Take-home a month |
+|---|---|---|---|---|
+| £20,000 | £1,486 | £594 | £17,920 | £1,493 |
+| £35,000 | £4,486 | £1,794 | £28,720 | £2,393 |
+| £50,000 | £7,486 | £2,994 | £39,520 | £3,293 |
+| £60,000 | £11,432 | £3,211 | £45,357 | £3,780 |
+| £100,000 | £27,432 | £4,011 | £68,557 | £5,713 |
+
+Examples assume no pension, no student loan, tax code 1257L and an even annual salary. NI is worked out on annual thresholds (£12,570 / £50,270); payroll uses weekly or monthly thresholds (£242 / £967 a week), so real payslips can differ by a few pounds. Scotland is not covered.
+
+GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/income-tax-rates](https://www.gov.uk/income-tax-rates) · [https://www.gov.uk/national-insurance-rates-letters](https://www.gov.uk/national-insurance-rates-letters) · [https://www.gov.uk/repaying-your-student-loan/what-you-pay](https://www.gov.uk/repaying-your-student-loan/what-you-pay)
+
+Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+
+---
+Disclaimer: estimates for information only, not financial, tax or legal advice.
+
+
+<!-- https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html -->
+# VAT Threshold Checker UK: Rolling 12-Month £90,000 Test | UK Money Calcs
+
+Source: https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html
+Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
+
+
+**Short answer:** You must register for VAT if your taxable turnover over the last rolling 12 months goes over £90,000, or you expect more than £90,000 in the next 30 days alone. Add up the last 12 months at every month end.
+
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html.md)
+
+Enter your taxable turnover for each of the last 12 months, newest last.
+
+**GOV.UK sources (checked 15 October 2026):**
+
+- [https://www.gov.uk/vat-registration/when-to-register](https://www.gov.uk/vat-registration/when-to-register)
+
+Need to add or remove VAT from a price? Use the [VAT calculator](https://andreiturcea-creator.github.io/uk-money-calcs/vat.html).
+
+**Related**
+
+- [VAT calculator](https://andreiturcea-creator.github.io/uk-money-calcs/vat.html)
+- [Self-employed tax calculator](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html)
+- [UK Sole Trader Kit](https://andreiturcea-creator.github.io/uk-freelancer-kit/)
+
+## What is the formula, in plain text?
+
+Add up taxable turnover (everything not VAT-exempt, including zero-rated sales) for the last 12 months. If the total is over £90,000 you must register within 30 days of the end of that month. You must also register straight away if you expect more than £90,000 in the next 30 days alone.
+
+## What rates and thresholds apply?
+
+| Rule | 2026/27 |
+|---|---|
+| Registration threshold | £90,000 rolling 12 months |
+| Forward-look test | more than £90,000 in the next 30 days alone |
+| Voluntary registration | allowed below £90,000 |
+
+## What are some worked examples?
+
+| Last 12 months | Total | Result |
+|---|---|---|
+| £6,000 every month | £72,000 | Below: £18,000 headroom |
+| £7,500 every month | £90,000 | Not over (must go over £90,000) |
+| £8,000 every month | £96,000 | Over: register within 30 days of month end |
+| £5,000 × 11, then £40,000 | £95,000 | Over: register within 30 days of month end |
+
+GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/vat-registration/when-to-register](https://www.gov.uk/vat-registration/when-to-register)
+
+Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+
+## Frequently asked questions
+
+### What is the VAT registration threshold?
+
+£90,000 of taxable turnover. You must register if your total taxable turnover for the last 12 months goes over £90,000, or if you expect it to go over £90,000 in the next 30 days alone.
+
+### Is it a rolling 12 months or the tax year?
+
+It is a rolling 12 months, not the tax year or your accounting year. Check it at the end of every month.
+
+### Can I register voluntarily below £90,000?
+
+Yes. GOV.UK allows voluntary registration if your turnover is under £90,000.
+
+### What counts as taxable turnover?
+
+The total value of everything you sell that is not VAT exempt, including zero-rated sales.
+
+---
+Disclaimer: estimates for information only, not financial, tax or legal advice.
+
+
+<!-- https://andreiturcea-creator.github.io/uk-money-calcs/vat.html -->
+# VAT Calculator UK: Add or Remove 20% VAT | UK Money Calcs
+
+Source: https://andreiturcea-creator.github.io/uk-money-calcs/vat.html
+Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
+
+
+**Short answer:** UK VAT is 20% standard, 5% reduced and 0% zero-rated. To add 20% VAT multiply by 1.2; to remove it divide by 1.2 (so £120 gross is £100 net plus £20 VAT).
+
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/vat.html.md)
+
+##
+
+To take VAT out of a gross price at 20%, divide by 1.2. Don't just subtract 20%.
+
+Checking whether you need to register? Use the [VAT threshold checker (£90,000)](https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html). Source: [GOV.UK](https://www.gov.uk/vat-registration/when-to-register).
+
+## What is the formula, in plain text?
+
+Add VAT: gross = net × (1 + rate). Remove VAT: net = gross ÷ (1 + rate); VAT = gross − net. At 20%, divide a VAT-inclusive price by 1.2 (do not subtract 20%).
+
+## What rates and thresholds apply?
+
+| Rate | Applies to |
+|---|---|
+| 20% standard | Most goods and services |
+| 5% reduced | Some goods and services, e.g. home energy, children's car seats |
+| 0% zero | Zero-rated goods, e.g. most food and children's clothes |
+
+## What are some worked examples?
+
+| Starting amount | Action | Net | VAT | Gross |
+|---|---|---|---|---|
+| £100.00 | Add 20% | £100.00 | £20.00 | £120.00 |
+| £120.00 | Remove 20% | £100.00 | £20.00 | £120.00 |
+| £99.99 | Remove 20% | £83.33 | £16.67 | £99.99 |
+| £200.00 | Add 5% | £200.00 | £10.00 | £210.00 |
+
+VAT registration threshold: £90,000 taxable turnover over a rolling 12 months (see the VAT threshold checker).
+
+GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/vat-rates](https://www.gov.uk/vat-rates) · [https://www.gov.uk/vat-registration/when-to-register](https://www.gov.uk/vat-registration/when-to-register)
+
+Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+
+---
+Disclaimer: estimates for information only, not financial, tax or legal advice.

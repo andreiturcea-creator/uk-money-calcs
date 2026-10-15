@@ -1,0 +1,153 @@
+{
+ "name": "UK Money Calcs rates and thresholds 2026/27",
+ "tax_year": "2026/27",
+ "tax_year_start": "2026-04-06",
+ "tax_year_end": "2027-04-05",
+ "scope": "England, Wales and Northern Ireland unless stated",
+ "checked_against_govuk": "2026-10-15",
+ "last_modified": "2026-10-15",
+ "income_tax": {
+  "personal_allowance": 12570,
+  "personal_allowance_taper": {
+   "starts_above_adjusted_net_income": 100000,
+   "reduction": "£1 for every £2",
+   "zero_at": 125140
+  },
+  "bands": [
+   {
+    "name": "basic",
+    "from": 12571,
+    "to": 50270,
+    "rate": 0.2
+   },
+   {
+    "name": "higher",
+    "from": 50271,
+    "to": 125140,
+    "rate": 0.4
+   },
+   {
+    "name": "additional",
+    "from": 125141,
+    "to": null,
+    "rate": 0.45
+   }
+  ],
+  "source": "https://www.gov.uk/income-tax-rates",
+  "status": "confirmed"
+ },
+ "employee_ni_class1_category_a": {
+  "weekly": {
+   "primary_threshold": 242,
+   "upper_earnings_limit": 967,
+   "main_rate": 0.08,
+   "upper_rate": 0.02
+  },
+  "monthly": {
+   "primary_threshold": 1048,
+   "upper_earnings_limit": 4189
+  },
+  "annual_approximation_used_by_calculator": {
+   "from": 12570,
+   "to": 50270
+  },
+  "source": "https://www.gov.uk/national-insurance-rates-letters",
+  "status": "confirmed"
+ },
+ "self_employed_ni": {
+  "class4": {
+   "lower_profits_limit": 12570,
+   "upper_profits_limit": 50270,
+   "main_rate": 0.06,
+   "upper_rate": 0.02
+  },
+  "class2": {
+   "small_profits_threshold": 7105,
+   "treated_as_paid_at_or_above_threshold": true,
+   "voluntary_weekly_rate": 3.65
+  },
+  "source": "https://www.gov.uk/self-employed-national-insurance-rates",
+  "status": "confirmed"
+ },
+ "dividends": {
+  "allowance": 500,
+  "basic_rate": 0.1075,
+  "higher_rate": 0.3575,
+  "additional_rate": 0.3935,
+  "source": "https://www.gov.uk/tax-on-dividends",
+  "status": "confirmed"
+ },
+ "student_loans": {
+  "thresholds_yearly": {
+   "plan_1": 26900,
+   "plan_2": 29385,
+   "plan_4": 33795,
+   "plan_5": 25000,
+   "postgraduate": 21000
+  },
+  "rates": {
+   "plans_1_2_4_5": 0.09,
+   "postgraduate": 0.06
+  },
+  "source": "https://www.gov.uk/repaying-your-student-loan/what-you-pay",
+  "status": "UNCONFIRMED for 2026/27: shown on GOV.UK on 2026-10-15 but not labelled with a tax year"
+ },
+ "vat": {
+  "registration_threshold": 90000,
+  "test": "rolling 12 months, or expected to exceed in next 30 days alone",
+  "rates": {
+   "standard": 0.2,
+   "reduced": 0.05,
+   "zero": 0.0
+  },
+  "sources": [
+   "https://www.gov.uk/vat-registration/when-to-register",
+   "https://www.gov.uk/vat-rates"
+  ],
+  "status": "confirmed"
+ },
+ "sdlt_england_ni_residential": {
+  "effective_from": "2025-04-01",
+  "bands": [
+   {
+    "to": 125000,
+    "rate": 0
+   },
+   {
+    "to": 250000,
+    "rate": 0.02
+   },
+   {
+    "to": 925000,
+    "rate": 0.05
+   },
+   {
+    "to": 1500000,
+    "rate": 0.1
+   },
+   {
+    "to": null,
+    "rate": 0.12
+   }
+  ],
+  "first_time_buyer": {
+   "max_price": 500000,
+   "bands": [
+    {
+     "to": 300000,
+     "rate": 0
+    },
+    {
+     "to": 500000,
+     "rate": 0.05
+    }
+   ]
+  },
+  "additional_property_surcharge": 0.05,
+  "non_uk_resident_surcharge": 0.02,
+  "note": "Non-resident surcharge not applied by the calculator",
+  "source": "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+  "status": "confirmed"
+ },
+ "disclaimer": "Estimates for information only, not financial or tax advice."
+}

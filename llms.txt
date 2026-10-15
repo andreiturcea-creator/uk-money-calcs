@@ -1,0 +1,35 @@
+# UK Money Calcs
+
+> Free UK personal-finance calculators for the 2026/27 tax year (England, Wales and Northern Ireland): take-home pay, self-employed tax, dividend tax, student loan repayments, Stamp Duty Land Tax, VAT and the VAT registration threshold. Each calculator page states its formula, rates and worked examples in plain text, with GOV.UK sources.
+
+Last updated 2026-10-15. Tax figures checked against GOV.UK on 2026-10-15 (2026/27 tax year). Student loan thresholds are as shown on GOV.UK but not confirmed as 2026/27 figures. Every page has a Markdown twin at the same URL plus `.md`. Information only, not financial or tax advice.
+
+## Calculators
+
+- [Dividend Tax Calculator 2026/27 UK](https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html.md): Work out tax on dividends for 2026/27 using the £500 allowance and the 10.75%, 35.75% and 39.35% rates.
+- [Pro Rata Salary Calculator UK](https://andreiturcea-creator.github.io/uk-money-calcs/pro-rata-salary.html.md): Turn a full-time salary into a part-time one, by hours or days per week.
+- [Self-Employed Tax Calculator 2026/27 (Income Tax + Class 4 NI)](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html.md): Estimate Income Tax and Class 4 National Insurance on your sole trader profits for 2026/27 (England, Wales and NI).
+- [Stamp Duty Calculator England 2026](https://andreiturcea-creator.github.io/uk-money-calcs/stamp-duty.html.md): Stamp Duty Land Tax calculator for England and Northern Ireland, covering first-time buyer relief and the 5% surcharge on additional properties.
+- [Student Loan Repayment Calculator UK (Plan 1, 2, 4, 5, Postgrad)](https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html.md): Work out your student loan repayments per year and per month from your income and plan type.
+- [UK Take-Home Pay Calculator 2026/27](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html.md): Work out your take-home pay after income tax, National Insurance, pension and student loan (England, Wales and NI).
+- [VAT Threshold Checker UK: Rolling 12-Month £90,000 Test](https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html.md): Enter your last 12 months of sales to check whether you have gone over the £90,000 VAT registration threshold.
+- [VAT Calculator UK: Add or Remove 20% VAT](https://andreiturcea-creator.github.io/uk-money-calcs/vat.html.md): Add VAT to a price or take it off, at 20%, 5% or 0%.
+
+## Guides
+
+- [Income Tax and National Insurance Rates 2026/27 (UK)](https://andreiturcea-creator.github.io/uk-money-calcs/income-tax-bands-2026-27.html.md): 2026/27 Income Tax bands, Personal Allowance, employee and self-employed National Insurance and dividend rates, with GOV.UK sources.
+
+## Pages
+
+- [UK Money Calculators: take-home pay, stamp duty, VAT](https://andreiturcea-creator.github.io/uk-money-calcs/index.html.md): Free UK calculators for salary, tax, stamp duty and VAT.
+
+## Data
+
+- [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json): UK 2026/27 Income Tax, NI, dividend, student loan, VAT and SDLT rates and thresholds with GOV.UK sources and checked date
+- [openapi.json](https://andreiturcea-creator.github.io/uk-money-calcs/openapi.json): OpenAPI 3.1 description of the static JSON file
+- [llms-full.txt](https://andreiturcea-creator.github.io/uk-money-calcs/llms-full.txt): full plain-text content of every page
+
+## Optional
+
+- [About](https://andreiturcea-creator.github.io/uk-money-calcs/about.html.md): who runs the site and disclosures
+- [Sitemap](https://andreiturcea-creator.github.io/uk-money-calcs/sitemap.xml): all URLs
