@@ -1,0 +1,11 @@
+name: build-and-publish
+on: {push: {branches: [main]}, workflow_dispatch: {}}
+permissions: {contents: write, pages: write, id-token: write}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install openpyxl && BUILD_DIR=$PWD/out python3 src/gen.py && touch out/uk-money-calcs/site/.nojekyll
+      - uses: peaceiris/actions-gh-pages@v4
+        with: {github_token: ${{ secrets.GITHUB_TOKEN }}, publish_dir: out/uk-money-calcs/site, publish_branch: gh-pages}
