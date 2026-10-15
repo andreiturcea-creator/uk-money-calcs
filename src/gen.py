@@ -10,9 +10,9 @@ table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #eee;pad
 def page(d,fn,title,desc,body,nav):
     os.makedirs(d,exist_ok=True)
     open(f"{d}/{fn}","w").write(f"""<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{title}</title><meta name="description" content="{desc}"><link rel="stylesheet" href="style.css"></head><body>
+<title>{title}</title><meta name="description" content="{desc}"><meta name="google-site-verification" content="4ClukxyHFtP7GSHUR0D75dGuQpNh220_u6YMPQ5exTw" /><link rel="stylesheet" href="style.css"></head><body>
 <header><h3><a href="index.html" style="text-decoration:none">{nav}</a></h3></header>{body}
-<footer><b>Disclaimer:</b> estimates for information only, not financial, tax or legal advice. Rates last checked against GOV.UK on 15 October 2026 (2026/27 tax year). Confirm with GOV.UK or a qualified adviser before acting. · <a href="about.html">About &amp; disclosures</a></footer></body></html>""")
+<footer><b>Disclaimer:</b> estimates for information only, not financial, tax or legal advice. Rates last checked against GOV.UK on 15 October 2026 (2026/27 tax year). Confirm with GOV.UK or a qualified adviser before acting. · <a href="about.html">About & disclosures</a></footer></body></html>""")
     open(f"{d}/style.css","w").write(CSS)
 
 # ---------- 1. UK calculators ----------
@@ -32,7 +32,7 @@ function calc(){let s=+S('s'),p=s*(+S('p'))/100,g=s-p,t=tax(g),ni=Math.max(0,Mat
 o.innerHTML=`<table><tr><th></th><th>Year</th><th>Month</th></tr>${[['Pension',p],['Income tax',t],['National Insurance',ni],['Student loan',l],['<b>Take-home</b>',n]].map(r=>`<tr><td>${r[0]}</td><td>£${r[1].toFixed(0)}</td><td>£${(r[1]/12).toFixed(0)}</td></tr>`).join('')}</table>`}
 function S(i){return document.getElementById(i).value}calc()</script>"""),
 "stamp-duty.html":("Stamp Duty Calculator England 2026","Stamp Duty Land Tax calculator for England and Northern Ireland, covering first-time buyer relief and the 5% surcharge on additional properties.","""
-<h1>Stamp Duty (SDLT) calculator: England &amp; NI</h1><div class=card>
+<h1>Stamp Duty (SDLT) calculator: England & NI</h1><div class=card>
 <label>Property price £ <input id=v type=number value=300000></label><br><br>
 <label><input type=radio name=b value=m checked> Moving home</label> <label><input type=radio name=b value=f> First-time buyer</label> <label><input type=radio name=b value=a> Additional property (+5%)</label><br><br>
 <button onclick=c()>Calculate</button><h2 id=o></h2></div>
