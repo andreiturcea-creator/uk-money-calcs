@@ -1,0 +1,14 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stamp Duty Calculator England 2026 | UK Money Calcs</title><meta name="description" content="Stamp Duty Land Tax calculator for England and Northern Ireland, covering first-time buyer relief and the 5% surcharge on additional properties."><link rel="stylesheet" href="style.css"></head><body>
+<header><h3><a href="index.html" style="text-decoration:none">UK Money Calcs</a></h3></header>
+<h1>Stamp Duty (SDLT) calculator: England &amp; NI</h1><div class=card>
+<label>Property price £ <input id=v type=number value=300000></label><br><br>
+<label><input type=radio name=b value=m checked> Moving home</label> <label><input type=radio name=b value=f> First-time buyer</label> <label><input type=radio name=b value=a> Additional property (+5%)</label><br><br>
+<button onclick=c()>Calculate</button><h2 id=o></h2></div>
+<p>Rates from 1 April 2025: 0% up to £125k, 2% £125k–£250k, 5% £250k–£925k, 10% £925k–£1.5m, 12% above. First-time buyers pay 0% up to £300k and 5% from £300k to £500k; relief is lost above £500k. Additional homes pay 5% on top of each band.</p>
+<script>function band(v,B){let t=0,prev=0;for(const[cap,r]of B){if(v>prev)t+=(Math.min(v,cap)-prev)*r;prev=cap}return t}
+const STD=[[125000,0],[250000,.02],[925000,.05],[1500000,.10],[1e12,.12]];
+function c(){let v=+document.getElementById('v').value,b=document.querySelector('[name=b]:checked').value,t;
+if(b=='f'&&v<=500000)t=band(v,[[300000,0],[500000,.05]]);else if(b=='a')t=band(v,STD.map(([c,r])=>[c,r+.05]));else t=band(v,STD);
+o.textContent='Stamp duty: £'+Math.round(t).toLocaleString('en-GB')}c()</script>
+<footer><b>Disclaimer:</b> estimates for information only, not financial, tax or legal advice. Rates last checked against GOV.UK on 15 October 2026 (2026/27 tax year). Confirm with GOV.UK or a qualified adviser before acting. · <a href="about.html">About &amp; disclosures</a></footer></body></html>

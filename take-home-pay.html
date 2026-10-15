@@ -1,0 +1,16 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UK Take-Home Pay Calculator 2026/27 | UK Money Calcs</title><meta name="description" content="Work out your take-home pay after income tax, National Insurance, pension and student loan (England, Wales and NI)."><link rel="stylesheet" href="style.css"></head><body>
+<header><h3><a href="index.html" style="text-decoration:none">UK Money Calcs</a></h3></header>
+<h1>UK take-home pay calculator 2026/27</h1><div class="card">
+<label>Gross annual salary £ <input id=s type=number value=35000></label><br><br>
+<label>Pension (salary sacrifice) % <input id=p type=number value=5 style="width:70px"></label>
+<label>Student loan <select id=sl><option value=0>None</option><option value=1>Plan 1</option><option value=2>Plan 2</option><option value=4>Plan 4 (Scotland)</option><option value=5>Plan 5</option><option value=9>Postgrad</option></select></label><br><br>
+<button onclick=calc()>Calculate</button><div id=o></div></div>
+<h2>How it works</h2><p>Personal allowance £12,570 (tapered by £1 per £2 above £100,000). Basic rate 20% to £50,270, higher 40% to £125,140, additional 45% above. Employee Class 1 NI: 8% between £12,570 and £50,270, 2% above. Thresholds are frozen until April 2031. Scotland uses different income tax bands, which this version does not cover yet.</p>
+<script>
+const SL={1:[26900,.09],2:[29385,.09],4:[33795,.09],5:[25000,.09],9:[21000,.06]};
+function tax(t){let pa=12570;if(t>100000)pa=Math.max(0,pa-(t-100000)/2);let x=Math.max(0,t-pa),b=Math.min(x,37700),h=Math.min(Math.max(0,x-37700),125140-37700-pa>0?125140-pa-37700:0),a=Math.max(0,x-b-h);return b*.2+h*.4+a*.45}
+function calc(){let s=+S('s'),p=s*(+S('p'))/100,g=s-p,t=tax(g),ni=Math.max(0,Math.min(g,50270)-12570)*.08+Math.max(0,g-50270)*.02,k=S('sl'),l=k>0?Math.max(0,g-SL[k][0])*SL[k][1]:0,n=g-t-ni-l;
+o.innerHTML=`<table><tr><th></th><th>Year</th><th>Month</th></tr>${[['Pension',p],['Income tax',t],['National Insurance',ni],['Student loan',l],['<b>Take-home</b>',n]].map(r=>`<tr><td>${r[0]}</td><td>£${r[1].toFixed(0)}</td><td>£${(r[1]/12).toFixed(0)}</td></tr>`).join('')}</table>`}
+function S(i){return document.getElementById(i).value}calc()</script>
+<footer><b>Disclaimer:</b> estimates for information only, not financial, tax or legal advice. Rates last checked against GOV.UK on 15 October 2026 (2026/27 tax year). Confirm with GOV.UK or a qualified adviser before acting. · <a href="about.html">About &amp; disclosures</a></footer></body></html>

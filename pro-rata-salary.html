@@ -1,0 +1,8 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pro Rata Salary Calculator UK | UK Money Calcs</title><meta name="description" content="Turn a full-time salary into a part-time one, by hours or days per week."><link rel="stylesheet" href="style.css"></head><body>
+<header><h3><a href="index.html" style="text-decoration:none">UK Money Calcs</a></h3></header>
+<h1>Pro rata salary calculator</h1><div class=card><label>Full-time salary £ <input id=f type=number value=30000></label>
+<label>FT hours/week <input id=fh type=number value=37.5 style="width:70px"></label> <label>Your hours/week <input id=h type=number value=22.5 style="width:70px"></label>
+<button onclick="o.textContent='Pro rata salary: £'+Math.round(f.value*h.value/fh.value).toLocaleString('en-GB')+' a year'">Calculate</button><h2 id=o></h2></div>
+<p>Holiday entitlement is pro-rated in the same way: 5.6 weeks × your days per week.</p>
+<footer><b>Disclaimer:</b> estimates for information only, not financial, tax or legal advice. Rates last checked against GOV.UK on 15 October 2026 (2026/27 tax year). Confirm with GOV.UK or a qualified adviser before acting. · <a href="about.html">About &amp; disclosures</a></footer></body></html>

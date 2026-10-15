@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://andreiturcea-creator.github.io/uk-money-calcs/sitemap.xml
