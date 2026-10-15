@@ -1,16 +1,16 @@
 # Student Loan Repayment Calculator UK (Plan 1, 2, 4, 5, Postgrad) | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html
+Source: https://calcs.andreiturcea.com/student-loan-repayment-calculator.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** You repay 9% of income above your plan threshold (Plan 1 £26,900, Plan 2 £29,385, Plan 4 £33,795, Plan 5 £25,000) and 6% above £21,000 for a Postgraduate Loan. These are the thresholds GOV.UK shows today; GOV.UK does not label them with a tax year, so they are not confirmed as 2026/27 figures.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/student-loan-repayment-calculator.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 | Plan | Yearly threshold | Rate |
 |---|---|---|
@@ -28,8 +28,8 @@ Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 ·
 
 **Related**
 
-- [Take-home pay calculator](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html)
-- [Self-employed tax calculator](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html)
+- [Take-home pay calculator](https://calcs.andreiturcea.com/take-home-pay.html)
+- [Self-employed tax calculator](https://calcs.andreiturcea.com/self-employed-tax-calculator.html)
 
 ## What is the formula, in plain text?
 
@@ -49,7 +49,7 @@ UNCONFIRMED FOR 2026/27: thresholds are as shown on GOV.UK on 15 October 2026, b
 
 GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/repaying-your-student-loan/what-you-pay](https://www.gov.uk/repaying-your-student-loan/what-you-pay)
 
-Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+Machine-readable rates: [api/rates-2026-27.json](https://calcs.andreiturcea.com/api/rates-2026-27.json).
 
 ## Frequently asked questions
 
@@ -69,7 +69,7 @@ Yes. The Postgraduate Loan 6% is charged on top of the 9% for your undergraduate
 
 No. Repayments depend only on your income, not on your balance.
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.

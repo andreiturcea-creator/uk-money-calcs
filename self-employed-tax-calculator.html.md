@@ -1,16 +1,16 @@
 # Self-Employed Tax Calculator 2026/27 (Income Tax + Class 4 NI) | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html
+Source: https://calcs.andreiturcea.com/self-employed-tax-calculator.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** In 2026/27 a sole trader in England, Wales or NI pays Income Tax of 20% on profit from £12,570 to £50,270 (40% to £125,140, 45% above) plus Class 4 NI of 6% on £12,570 to £50,270 and 2% above. On £40,000 profit that is £5,486 tax plus £1,646 Class 4 NI, £7,132 in total.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/self-employed-tax-calculator.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 Enter your expected profit (income minus allowable expenses) for 6 April 2026 to 5 April 2027.
 
@@ -32,11 +32,11 @@ Simplification: Class 4 is worked out on profit alone. When you have a salary to
 
 **Related**
 
-- [Take-home pay calculator (employees)](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html)
-- [Dividend tax calculator](https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html)
-- [VAT threshold checker (£90,000)](https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html)
-- [Payments on account explained](https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-payments-on-account.html)
-- [Making Tax Digital for Income Tax: who and when](https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-mtd.html)
+- [Take-home pay calculator (employees)](https://calcs.andreiturcea.com/take-home-pay.html)
+- [Dividend tax calculator](https://calcs.andreiturcea.com/dividend-tax-calculator.html)
+- [VAT threshold checker (£90,000)](https://calcs.andreiturcea.com/vat-threshold-checker.html)
+- [Payments on account explained](https://kit.andreiturcea.com/guide-payments-on-account.html)
+- [Making Tax Digital for Income Tax: who and when](https://kit.andreiturcea.com/guide-mtd.html)
 
 ## What is the formula, in plain text?
 
@@ -56,7 +56,7 @@ Class 2 NI is treated as paid at profits of £7,105 or more (voluntary £3.65 a 
 
 GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/income-tax-rates](https://www.gov.uk/income-tax-rates) · [https://www.gov.uk/self-employed-national-insurance-rates](https://www.gov.uk/self-employed-national-insurance-rates)
 
-Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+Machine-readable rates: [api/rates-2026-27.json](https://calcs.andreiturcea.com/api/rates-2026-27.json).
 
 ## Frequently asked questions
 
@@ -76,7 +76,7 @@ On profit: your self-employed income minus allowable expenses. You can use the �
 
 No. Scotland has different Income Tax bands. Class 4 National Insurance is the same across the UK.
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.

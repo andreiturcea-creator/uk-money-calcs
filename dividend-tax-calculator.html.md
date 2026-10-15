@@ -1,16 +1,16 @@
 # Dividend Tax Calculator 2026/27 UK | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html
+Source: https://calcs.andreiturcea.com/dividend-tax-calculator.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** For 2026/27 the first £500 of dividends is tax-free, then dividends are taxed at 10.75% (basic band), 35.75% (higher) and 39.35% (additional). GOV.UK's example of £29,570 wages and £3,000 dividends gives £268.75 of dividend tax.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/dividend-tax-calculator.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ## How is it calculated?
 
@@ -25,9 +25,9 @@ Example from GOV.UK: £29,570 wages and £3,000 dividends gives £0 on £500 and
 
 **Related**
 
-- [Self-employed tax calculator](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html)
-- [Take-home pay calculator](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html)
-- [UK Sole Trader Kit (spreadsheet)](https://andreiturcea-creator.github.io/uk-freelancer-kit/)
+- [Self-employed tax calculator](https://calcs.andreiturcea.com/self-employed-tax-calculator.html)
+- [Take-home pay calculator](https://calcs.andreiturcea.com/take-home-pay.html)
+- [UK Sole Trader Kit (spreadsheet)](https://kit.andreiturcea.com/)
 
 ## What is the formula, in plain text?
 
@@ -56,7 +56,7 @@ First row is GOV.UK's own example. Tax on the salary itself is not included.
 
 GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/tax-on-dividends](https://www.gov.uk/tax-on-dividends) · [https://www.gov.uk/income-tax-rates](https://www.gov.uk/income-tax-rates)
 
-Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+Machine-readable rates: [api/rates-2026-27.json](https://calcs.andreiturcea.com/api/rates-2026-27.json).
 
 ## Frequently asked questions
 
@@ -76,7 +76,7 @@ No. Dividends from shares held in an ISA are tax-free.
 
 No. National Insurance is not charged on dividends, which is why many company directors take a small salary and the rest as dividends.
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.

@@ -1,12 +1,12 @@
 # About | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/about.html
+Source: https://calcs.andreiturcea.com/about.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** UK Money Calcs is an independent site of free UK tax and money calculators, with rates checked against GOV.UK. It is not financial advice; affiliate links, if any, are labelled.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/about.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/about.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 

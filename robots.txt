@@ -45,4 +45,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://andreiturcea-creator.github.io/uk-money-calcs/sitemap.xml
+Sitemap: https://calcs.andreiturcea.com/sitemap.xml

@@ -1,16 +1,16 @@
 # VAT Threshold Checker UK: Rolling 12-Month £90,000 Test | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html
+Source: https://calcs.andreiturcea.com/vat-threshold-checker.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** You must register for VAT if your taxable turnover over the last rolling 12 months goes over £90,000, or you expect more than £90,000 in the next 30 days alone. Add up the last 12 months at every month end.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/vat-threshold-checker.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 Enter your taxable turnover for each of the last 12 months, newest last.
 
@@ -18,13 +18,13 @@ Enter your taxable turnover for each of the last 12 months, newest last.
 
 - [https://www.gov.uk/vat-registration/when-to-register](https://www.gov.uk/vat-registration/when-to-register)
 
-Need to add or remove VAT from a price? Use the [VAT calculator](https://andreiturcea-creator.github.io/uk-money-calcs/vat.html).
+Need to add or remove VAT from a price? Use the [VAT calculator](https://calcs.andreiturcea.com/vat.html).
 
 **Related**
 
-- [VAT calculator](https://andreiturcea-creator.github.io/uk-money-calcs/vat.html)
-- [Self-employed tax calculator](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html)
-- [UK Sole Trader Kit](https://andreiturcea-creator.github.io/uk-freelancer-kit/)
+- [VAT calculator](https://calcs.andreiturcea.com/vat.html)
+- [Self-employed tax calculator](https://calcs.andreiturcea.com/self-employed-tax-calculator.html)
+- [UK Sole Trader Kit](https://kit.andreiturcea.com/)
 
 ## What is the formula, in plain text?
 
@@ -49,7 +49,7 @@ Add up taxable turnover (everything not VAT-exempt, including zero-rated sales) 
 
 GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/vat-registration/when-to-register](https://www.gov.uk/vat-registration/when-to-register)
 
-Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+Machine-readable rates: [api/rates-2026-27.json](https://calcs.andreiturcea.com/api/rates-2026-27.json).
 
 ## Frequently asked questions
 
@@ -69,7 +69,7 @@ Yes. GOV.UK allows voluntary registration if your turnover is under £90,000.
 
 The total value of everything you sell that is not VAT exempt, including zero-rated sales.
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.

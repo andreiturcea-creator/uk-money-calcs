@@ -4,16 +4,16 @@
 
 Generated 2026-10-15. Each section below is one page.
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/about.html -->
+<!-- https://calcs.andreiturcea.com/about.html -->
 # About | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/about.html
+Source: https://calcs.andreiturcea.com/about.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** UK Money Calcs is an independent site of free UK tax and money calculators, with rates checked against GOV.UK. It is not financial advice; affiliate links, if any, are labelled.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/about.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/about.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
@@ -23,16 +23,16 @@ An independent site with calculators that are maintained and checked automatical
 Disclaimer: estimates for information only, not financial, tax or legal advice.
 
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/affiliate-disclosure.html -->
+<!-- https://calcs.andreiturcea.com/affiliate-disclosure.html -->
 # Affiliate disclosure | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/affiliate-disclosure.html
+Source: https://calcs.andreiturcea.com/affiliate-disclosure.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** How UK Money Calcs labels affiliate and referral links.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/affiliate-disclosure.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/affiliate-disclosure.html.md)
 
 Last updated 15 October 2026.
 
@@ -52,22 +52,22 @@ Commissions never change calculator results, figures, rankings or what we write.
 
 We list partner links only once a programme has approved us. Right now there are none.
 
-This follows the UK CAP Code and ASA guidance that marketing must be obviously identifiable. See also our [privacy notice](https://andreiturcea-creator.github.io/uk-money-calcs/privacy.html).
+This follows the UK CAP Code and ASA guidance that marketing must be obviously identifiable. See also our [privacy notice](https://calcs.andreiturcea.com/privacy.html).
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.
 
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/cookies.html -->
+<!-- https://calcs.andreiturcea.com/cookies.html -->
 # Cookies | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/cookies.html
+Source: https://calcs.andreiturcea.com/cookies.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** Cookie notice for UK Money Calcs: the site sets no cookies.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/cookies.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/cookies.html.md)
 
 Last updated 15 October 2026.
 
@@ -75,26 +75,26 @@ Last updated 15 October 2026.
 
 The site is hosted on GitHub Pages, which serves static files and does not set cookies on these pages. If you click through to another site (for example Gumroad, GitHub or a partner), that site may set its own cookies under its own policy once you are there.
 
-If this ever changes, for example if we add analytics or ads, we will list every cookie here and ask for your consent before setting any that are not strictly necessary, as the Privacy and Electronic Communications Regulations (PECR) require. See also our [privacy notice](https://andreiturcea-creator.github.io/uk-money-calcs/privacy.html).
+If this ever changes, for example if we add analytics or ads, we will list every cookie here and ask for your consent before setting any that are not strictly necessary, as the Privacy and Electronic Communications Regulations (PECR) require. See also our [privacy notice](https://calcs.andreiturcea.com/privacy.html).
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.
 
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html -->
+<!-- https://calcs.andreiturcea.com/dividend-tax-calculator.html -->
 # Dividend Tax Calculator 2026/27 UK | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html
+Source: https://calcs.andreiturcea.com/dividend-tax-calculator.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** For 2026/27 the first £500 of dividends is tax-free, then dividends are taxed at 10.75% (basic band), 35.75% (higher) and 39.35% (additional). GOV.UK's example of £29,570 wages and £3,000 dividends gives £268.75 of dividend tax.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/dividend-tax-calculator.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ## How is it calculated?
 
@@ -109,9 +109,9 @@ Example from GOV.UK: £29,570 wages and £3,000 dividends gives £0 on £500 and
 
 **Related**
 
-- [Self-employed tax calculator](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html)
-- [Take-home pay calculator](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html)
-- [UK Sole Trader Kit (spreadsheet)](https://andreiturcea-creator.github.io/uk-freelancer-kit/)
+- [Self-employed tax calculator](https://calcs.andreiturcea.com/self-employed-tax-calculator.html)
+- [Take-home pay calculator](https://calcs.andreiturcea.com/take-home-pay.html)
+- [UK Sole Trader Kit (spreadsheet)](https://kit.andreiturcea.com/)
 
 ## What is the formula, in plain text?
 
@@ -140,7 +140,7 @@ First row is GOV.UK's own example. Tax on the salary itself is not included.
 
 GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/tax-on-dividends](https://www.gov.uk/tax-on-dividends) · [https://www.gov.uk/income-tax-rates](https://www.gov.uk/income-tax-rates)
 
-Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+Machine-readable rates: [api/rates-2026-27.json](https://calcs.andreiturcea.com/api/rates-2026-27.json).
 
 ## Frequently asked questions
 
@@ -160,26 +160,26 @@ No. Dividends from shares held in an ISA are tax-free.
 
 No. National Insurance is not charged on dividends, which is why many company directors take a small salary and the rest as dividends.
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.
 
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/income-tax-bands-2026-27.html -->
+<!-- https://calcs.andreiturcea.com/income-tax-bands-2026-27.html -->
 # Income Tax and National Insurance Rates 2026/27 (UK) | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/income-tax-bands-2026-27.html
+Source: https://calcs.andreiturcea.com/income-tax-bands-2026-27.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** For 2026/27 (6 April 2026 to 5 April 2027) in England, Wales and NI: Personal Allowance £12,570, basic rate 20% to £50,270, higher rate 40% to £125,140, additional rate 45% above. Employee NI is 8% then 2%, Class 4 NI 6% then 2%, and dividends are taxed at 10.75%, 35.75% and 39.35% after a £500 allowance.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/income-tax-bands-2026-27.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/income-tax-bands-2026-27.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 The 2026/27 tax year runs from 6 April 2026 to 5 April 2027.
 
@@ -210,7 +210,7 @@ Class 4: 6% on profits £12,570–£50,270, 2% above. Class 2 is treated as paid
 
 ## Which calculators use these rates?
 
-[Take-home pay](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html) · [Self-employed tax](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html) · [Dividend tax](https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html) · [Student loan](https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html) · [VAT threshold](https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html)
+[Take-home pay](https://calcs.andreiturcea.com/take-home-pay.html) · [Self-employed tax](https://calcs.andreiturcea.com/self-employed-tax-calculator.html) · [Dividend tax](https://calcs.andreiturcea.com/dividend-tax-calculator.html) · [Student loan](https://calcs.andreiturcea.com/student-loan-repayment-calculator.html) · [VAT threshold](https://calcs.andreiturcea.com/vat-threshold-checker.html)
 
 **GOV.UK sources (checked 15 October 2026):**
 
@@ -237,57 +237,57 @@ It goes down by £1 for every £2 of adjusted net income over £100,000, so it i
 
 Yes. Scotland has its own Income Tax bands; this page covers the rest of the UK.
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.
 
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/index.html -->
+<!-- https://calcs.andreiturcea.com/index.html -->
 # UK Money Calculators: take-home pay, stamp duty, VAT
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/
+Source: https://calcs.andreiturcea.com/
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** Free UK calculators for 2026/27: take-home pay, self-employed tax, dividend tax, student loan, Stamp Duty and VAT. Every calculator states its formula, rates and worked examples in plain text, with GOV.UK sources.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/index.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/index.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
 Fast and private: everything runs in your browser and nothing is stored.
 
-[**UK Take-Home Pay Calculator 2026/27**](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html)
+[**UK Take-Home Pay Calculator 2026/27**](https://calcs.andreiturcea.com/take-home-pay.html)
 Work out your take-home pay after income tax, National Insurance, pension and student loan (England, Wales and NI).
 
-[**Stamp Duty Calculator England 2026**](https://andreiturcea-creator.github.io/uk-money-calcs/stamp-duty.html)
+[**Stamp Duty Calculator England 2026**](https://calcs.andreiturcea.com/stamp-duty.html)
 Stamp Duty Land Tax calculator for England and Northern Ireland, covering first-time buyer relief and the 5% surcharge on additional properties.
 
-[**VAT Calculator UK: Add or Remove 20% VAT**](https://andreiturcea-creator.github.io/uk-money-calcs/vat.html)
+[**VAT Calculator UK: Add or Remove 20% VAT**](https://calcs.andreiturcea.com/vat.html)
 Add VAT to a price or take it off, at 20%, 5% or 0%.
 
-[**Pro Rata Salary Calculator UK**](https://andreiturcea-creator.github.io/uk-money-calcs/pro-rata-salary.html)
+[**Pro Rata Salary Calculator UK**](https://calcs.andreiturcea.com/pro-rata-salary.html)
 Turn a full-time salary into a part-time one, by hours or days per week.
 
 ## Which 2026/27 calculators are new?
 
-[**Self-employed tax calculator 2026/27**](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html)
+[**Self-employed tax calculator 2026/27**](https://calcs.andreiturcea.com/self-employed-tax-calculator.html)
 Income Tax and Class 4 NI on sole trader profits.
 
-[**Dividend tax calculator 2026/27**](https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html)
+[**Dividend tax calculator 2026/27**](https://calcs.andreiturcea.com/dividend-tax-calculator.html)
 £500 allowance; 10.75%, 35.75% and 39.35% rates.
 
-[**Student loan repayment calculator**](https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html)
+[**Student loan repayment calculator**](https://calcs.andreiturcea.com/student-loan-repayment-calculator.html)
 Plans 1, 2, 4, 5 and Postgraduate.
 
-[**VAT threshold checker**](https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html)
+[**VAT threshold checker**](https://calcs.andreiturcea.com/vat-threshold-checker.html)
 Rolling 12-month £90,000 test.
 
-[**Income Tax and NI rates 2026/27**](https://andreiturcea-creator.github.io/uk-money-calcs/income-tax-bands-2026-27.html)
+[**Income Tax and NI rates 2026/27**](https://calcs.andreiturcea.com/income-tax-bands-2026-27.html)
 All the bands on one page, with GOV.UK sources.
 
-**Self-employed?** Free guides on [Making Tax Digital for Income Tax](https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-mtd.html), [payments on account](https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-payments-on-account.html) and the [UK Sole Trader Kit](https://andreiturcea-creator.github.io/uk-freelancer-kit/).
+**Self-employed?** Free guides on [Making Tax Digital for Income Tax](https://kit.andreiturcea.com/guide-mtd.html), [payments on account](https://kit.andreiturcea.com/guide-payments-on-account.html) and the [UK Sole Trader Kit](https://kit.andreiturcea.com/).
 
 **Partner offers: coming soon.** Any sponsored or affiliate link will be clearly labelled.
 
@@ -295,16 +295,16 @@ All the bands on one page, with GOV.UK sources.
 Disclaimer: estimates for information only, not financial, tax or legal advice.
 
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/privacy.html -->
+<!-- https://calcs.andreiturcea.com/privacy.html -->
 # Privacy | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/privacy.html
+Source: https://calcs.andreiturcea.com/privacy.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** Privacy notice for UK Money Calcs: no analytics, no ads, no personal data collected.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/privacy.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/privacy.html.md)
 
 Last updated 15 October 2026. This notice explains what happens to your information when you use UK Money Calcs.
 
@@ -321,7 +321,7 @@ We do not ask for your name or email, we do not run analytics or advertising, an
 
 ## Changes
 
-If we ever add analytics, a newsletter, ads or anything else that collects personal data, we will update this page and the [cookies page](https://andreiturcea-creator.github.io/uk-money-calcs/cookies.html) first, and ask for consent where the law requires it.
+If we ever add analytics, a newsletter, ads or anything else that collects personal data, we will update this page and the [cookies page](https://calcs.andreiturcea.com/cookies.html) first, and ask for consent where the law requires it.
 
 ## Your rights and contact
 
@@ -331,26 +331,26 @@ Under UK GDPR you have rights over your personal data, including access and dele
 Disclaimer: estimates for information only, not financial, tax or legal advice.
 
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/pro-rata-salary.html -->
+<!-- https://calcs.andreiturcea.com/pro-rata-salary.html -->
 # Pro Rata Salary Calculator UK | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/pro-rata-salary.html
+Source: https://calcs.andreiturcea.com/pro-rata-salary.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** Pro rata salary = full-time salary × your hours ÷ full-time hours. A £30,000 full-time salary at 22.5 of 37.5 hours a week is £18,000 a year.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/pro-rata-salary.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/pro-rata-salary.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ##
 
 Holiday entitlement is pro-rated in the same way: 5.6 weeks × your days per week.
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ## What is the formula, in plain text?
 
@@ -375,26 +375,26 @@ Holiday example: 3 days a week × 5.6 = 16.8 days. The 5.6-week figure is long-s
 
 GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/holiday-entitlement-rights](https://www.gov.uk/holiday-entitlement-rights)
 
-Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+Machine-readable rates: [api/rates-2026-27.json](https://calcs.andreiturcea.com/api/rates-2026-27.json).
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.
 
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html -->
+<!-- https://calcs.andreiturcea.com/self-employed-tax-calculator.html -->
 # Self-Employed Tax Calculator 2026/27 (Income Tax + Class 4 NI) | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html
+Source: https://calcs.andreiturcea.com/self-employed-tax-calculator.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** In 2026/27 a sole trader in England, Wales or NI pays Income Tax of 20% on profit from £12,570 to £50,270 (40% to £125,140, 45% above) plus Class 4 NI of 6% on £12,570 to £50,270 and 2% above. On £40,000 profit that is £5,486 tax plus £1,646 Class 4 NI, £7,132 in total.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/self-employed-tax-calculator.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 Enter your expected profit (income minus allowable expenses) for 6 April 2026 to 5 April 2027.
 
@@ -416,11 +416,11 @@ Simplification: Class 4 is worked out on profit alone. When you have a salary to
 
 **Related**
 
-- [Take-home pay calculator (employees)](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html)
-- [Dividend tax calculator](https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html)
-- [VAT threshold checker (£90,000)](https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html)
-- [Payments on account explained](https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-payments-on-account.html)
-- [Making Tax Digital for Income Tax: who and when](https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-mtd.html)
+- [Take-home pay calculator (employees)](https://calcs.andreiturcea.com/take-home-pay.html)
+- [Dividend tax calculator](https://calcs.andreiturcea.com/dividend-tax-calculator.html)
+- [VAT threshold checker (£90,000)](https://calcs.andreiturcea.com/vat-threshold-checker.html)
+- [Payments on account explained](https://kit.andreiturcea.com/guide-payments-on-account.html)
+- [Making Tax Digital for Income Tax: who and when](https://kit.andreiturcea.com/guide-mtd.html)
 
 ## What is the formula, in plain text?
 
@@ -440,7 +440,7 @@ Class 2 NI is treated as paid at profits of £7,105 or more (voluntary £3.65 a 
 
 GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/income-tax-rates](https://www.gov.uk/income-tax-rates) · [https://www.gov.uk/self-employed-national-insurance-rates](https://www.gov.uk/self-employed-national-insurance-rates)
 
-Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+Machine-readable rates: [api/rates-2026-27.json](https://calcs.andreiturcea.com/api/rates-2026-27.json).
 
 ## Frequently asked questions
 
@@ -460,32 +460,32 @@ On profit: your self-employed income minus allowable expenses. You can use the �
 
 No. Scotland has different Income Tax bands. Class 4 National Insurance is the same across the UK.
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.
 
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/stamp-duty.html -->
+<!-- https://calcs.andreiturcea.com/stamp-duty.html -->
 # Stamp Duty Calculator England 2026 | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/stamp-duty.html
+Source: https://calcs.andreiturcea.com/stamp-duty.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** In England and Northern Ireland, Stamp Duty Land Tax is 0% up to £125,000, 2% to £250,000, 5% to £925,000, 10% to £1.5 million and 12% above; a £295,000 home costs £4,750. First-time buyers pay nothing up to £300,000 and 5% from £300,001 to £500,000; additional homes pay 5% on top of each band.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/stamp-duty.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/stamp-duty.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ##
 
 Rates from 1 April 2025: 0% up to £125k, 2% £125k–£250k, 5% £250k–£925k, 10% £925k–£1.5m, 12% above. First-time buyers pay 0% up to £300k and 5% from £300k to £500k; relief is lost above £500k. Additional homes pay 5% on top of each band.
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ## What is the formula, in plain text?
 
@@ -517,26 +517,26 @@ Rates in force from 1 April 2025, checked against GOV.UK on 15 October 2026. Not
 
 GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/stamp-duty-land-tax/residential-property-rates](https://www.gov.uk/stamp-duty-land-tax/residential-property-rates)
 
-Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+Machine-readable rates: [api/rates-2026-27.json](https://calcs.andreiturcea.com/api/rates-2026-27.json).
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.
 
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html -->
+<!-- https://calcs.andreiturcea.com/student-loan-repayment-calculator.html -->
 # Student Loan Repayment Calculator UK (Plan 1, 2, 4, 5, Postgrad) | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html
+Source: https://calcs.andreiturcea.com/student-loan-repayment-calculator.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** You repay 9% of income above your plan threshold (Plan 1 £26,900, Plan 2 £29,385, Plan 4 £33,795, Plan 5 £25,000) and 6% above £21,000 for a Postgraduate Loan. These are the thresholds GOV.UK shows today; GOV.UK does not label them with a tax year, so they are not confirmed as 2026/27 figures.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/student-loan-repayment-calculator.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 | Plan | Yearly threshold | Rate |
 |---|---|---|
@@ -554,8 +554,8 @@ Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 ·
 
 **Related**
 
-- [Take-home pay calculator](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html)
-- [Self-employed tax calculator](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html)
+- [Take-home pay calculator](https://calcs.andreiturcea.com/take-home-pay.html)
+- [Self-employed tax calculator](https://calcs.andreiturcea.com/self-employed-tax-calculator.html)
 
 ## What is the formula, in plain text?
 
@@ -575,7 +575,7 @@ UNCONFIRMED FOR 2026/27: thresholds are as shown on GOV.UK on 15 October 2026, b
 
 GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/repaying-your-student-loan/what-you-pay](https://www.gov.uk/repaying-your-student-loan/what-you-pay)
 
-Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+Machine-readable rates: [api/rates-2026-27.json](https://calcs.andreiturcea.com/api/rates-2026-27.json).
 
 ## Frequently asked questions
 
@@ -595,34 +595,34 @@ Yes. The Postgraduate Loan 6% is charged on top of the 9% for your undergraduate
 
 No. Repayments depend only on your income, not on your balance.
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.
 
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html -->
+<!-- https://calcs.andreiturcea.com/take-home-pay.html -->
 # UK Take-Home Pay Calculator 2026/27 | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html
+Source: https://calcs.andreiturcea.com/take-home-pay.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** On a £35,000 salary in 2026/27 (England, Wales, NI, no pension or student loan) you take home about £28,720 a year (£2,393 a month) after £4,486 Income Tax and £1,794 National Insurance. Tax is 20% from £12,570 to £50,270, 40% to £125,140 and 45% above; employee NI is 8% then 2%.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/take-home-pay.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/take-home-pay.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ## How is it calculated?
 
 Personal allowance £12,570 (tapered by £1 per £2 above £100,000). Basic rate 20% to £50,270, higher 40% to £125,140, additional 45% above. Employee Class 1 NI: 8% between £12,570 and £50,270, 2% above. Thresholds are frozen until April 2031. Scotland uses different income tax bands, which this version does not cover yet.
 
-Sources: [GOV.UK Income Tax rates](https://www.gov.uk/income-tax-rates) · [GOV.UK NI rates](https://www.gov.uk/national-insurance-rates-letters) · [GOV.UK student loan thresholds](https://www.gov.uk/repaying-your-student-loan/what-you-pay). Related: [self-employed tax](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html) · [dividend tax](https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html) · [student loan](https://andreiturcea-creator.github.io/uk-money-calcs/student-loan-repayment-calculator.html) · [2026/27 rates](https://andreiturcea-creator.github.io/uk-money-calcs/income-tax-bands-2026-27.html)
+Sources: [GOV.UK Income Tax rates](https://www.gov.uk/income-tax-rates) · [GOV.UK NI rates](https://www.gov.uk/national-insurance-rates-letters) · [GOV.UK student loan thresholds](https://www.gov.uk/repaying-your-student-loan/what-you-pay). Related: [self-employed tax](https://calcs.andreiturcea.com/self-employed-tax-calculator.html) · [dividend tax](https://calcs.andreiturcea.com/dividend-tax-calculator.html) · [student loan](https://calcs.andreiturcea.com/student-loan-repayment-calculator.html) · [2026/27 rates](https://calcs.andreiturcea.com/income-tax-bands-2026-27.html)
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ## What is the formula, in plain text?
 
@@ -652,26 +652,26 @@ Examples assume no pension, no student loan, tax code 1257L and an even annual s
 
 GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/income-tax-rates](https://www.gov.uk/income-tax-rates) · [https://www.gov.uk/national-insurance-rates-letters](https://www.gov.uk/national-insurance-rates-letters) · [https://www.gov.uk/repaying-your-student-loan/what-you-pay](https://www.gov.uk/repaying-your-student-loan/what-you-pay)
 
-Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+Machine-readable rates: [api/rates-2026-27.json](https://calcs.andreiturcea.com/api/rates-2026-27.json).
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.
 
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html -->
+<!-- https://calcs.andreiturcea.com/vat-threshold-checker.html -->
 # VAT Threshold Checker UK: Rolling 12-Month £90,000 Test | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html
+Source: https://calcs.andreiturcea.com/vat-threshold-checker.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** You must register for VAT if your taxable turnover over the last rolling 12 months goes over £90,000, or you expect more than £90,000 in the next 30 days alone. Add up the last 12 months at every month end.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/vat-threshold-checker.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 Enter your taxable turnover for each of the last 12 months, newest last.
 
@@ -679,13 +679,13 @@ Enter your taxable turnover for each of the last 12 months, newest last.
 
 - [https://www.gov.uk/vat-registration/when-to-register](https://www.gov.uk/vat-registration/when-to-register)
 
-Need to add or remove VAT from a price? Use the [VAT calculator](https://andreiturcea-creator.github.io/uk-money-calcs/vat.html).
+Need to add or remove VAT from a price? Use the [VAT calculator](https://calcs.andreiturcea.com/vat.html).
 
 **Related**
 
-- [VAT calculator](https://andreiturcea-creator.github.io/uk-money-calcs/vat.html)
-- [Self-employed tax calculator](https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html)
-- [UK Sole Trader Kit](https://andreiturcea-creator.github.io/uk-freelancer-kit/)
+- [VAT calculator](https://calcs.andreiturcea.com/vat.html)
+- [Self-employed tax calculator](https://calcs.andreiturcea.com/self-employed-tax-calculator.html)
+- [UK Sole Trader Kit](https://kit.andreiturcea.com/)
 
 ## What is the formula, in plain text?
 
@@ -710,7 +710,7 @@ Add up taxable turnover (everything not VAT-exempt, including zero-rated sales) 
 
 GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/vat-registration/when-to-register](https://www.gov.uk/vat-registration/when-to-register)
 
-Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+Machine-readable rates: [api/rates-2026-27.json](https://calcs.andreiturcea.com/api/rates-2026-27.json).
 
 ## Frequently asked questions
 
@@ -730,34 +730,34 @@ Yes. GOV.UK allows voluntary registration if your turnover is under £90,000.
 
 The total value of everything you sell that is not VAT exempt, including zero-rated sales.
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.
 
 
-<!-- https://andreiturcea-creator.github.io/uk-money-calcs/vat.html -->
+<!-- https://calcs.andreiturcea.com/vat.html -->
 # VAT Calculator UK: Add or Remove 20% VAT | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/vat.html
+Source: https://calcs.andreiturcea.com/vat.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** UK VAT is 20% standard, 5% reduced and 0% zero-rated. To add 20% VAT multiply by 1.2; to remove it divide by 1.2 (so £120 gross is £100 net plus £20 VAT).
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/vat.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/vat.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ##
 
 To take VAT out of a gross price at 20%, divide by 1.2. Don't just subtract 20%.
 
-Checking whether you need to register? Use the [VAT threshold checker (£90,000)](https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html). Source: [GOV.UK](https://www.gov.uk/vat-registration/when-to-register).
+Checking whether you need to register? Use the [VAT threshold checker (£90,000)](https://calcs.andreiturcea.com/vat-threshold-checker.html). Source: [GOV.UK](https://www.gov.uk/vat-registration/when-to-register).
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ## What is the formula, in plain text?
 
@@ -784,7 +784,7 @@ VAT registration threshold: £90,000 taxable turnover over a rolling 12 months (
 
 GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/vat-rates](https://www.gov.uk/vat-rates) · [https://www.gov.uk/vat-registration/when-to-register](https://www.gov.uk/vat-registration/when-to-register)
 
-Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+Machine-readable rates: [api/rates-2026-27.json](https://calcs.andreiturcea.com/api/rates-2026-27.json).
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.

@@ -1,12 +1,12 @@
 # Affiliate disclosure | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/affiliate-disclosure.html
+Source: https://calcs.andreiturcea.com/affiliate-disclosure.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** How UK Money Calcs labels affiliate and referral links.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/affiliate-disclosure.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/affiliate-disclosure.html.md)
 
 Last updated 15 October 2026.
 
@@ -26,7 +26,7 @@ Commissions never change calculator results, figures, rankings or what we write.
 
 We list partner links only once a programme has approved us. Right now there are none.
 
-This follows the UK CAP Code and ASA guidance that marketing must be obviously identifiable. See also our [privacy notice](https://andreiturcea-creator.github.io/uk-money-calcs/privacy.html).
+This follows the UK CAP Code and ASA guidance that marketing must be obviously identifiable. See also our [privacy notice](https://calcs.andreiturcea.com/privacy.html).
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.

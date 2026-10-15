@@ -1,12 +1,12 @@
 # Privacy | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/privacy.html
+Source: https://calcs.andreiturcea.com/privacy.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** Privacy notice for UK Money Calcs: no analytics, no ads, no personal data collected.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/privacy.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/privacy.html.md)
 
 Last updated 15 October 2026. This notice explains what happens to your information when you use UK Money Calcs.
 
@@ -23,7 +23,7 @@ We do not ask for your name or email, we do not run analytics or advertising, an
 
 ## Changes
 
-If we ever add analytics, a newsletter, ads or anything else that collects personal data, we will update this page and the [cookies page](https://andreiturcea-creator.github.io/uk-money-calcs/cookies.html) first, and ask for consent where the law requires it.
+If we ever add analytics, a newsletter, ads or anything else that collects personal data, we will update this page and the [cookies page](https://calcs.andreiturcea.com/cookies.html) first, and ask for consent where the law requires it.
 
 ## Your rights and contact
 

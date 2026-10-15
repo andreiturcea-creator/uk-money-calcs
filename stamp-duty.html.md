@@ -1,22 +1,22 @@
 # Stamp Duty Calculator England 2026 | UK Money Calcs
 
-Source: https://andreiturcea-creator.github.io/uk-money-calcs/stamp-duty.html
+Source: https://calcs.andreiturcea.com/stamp-duty.html
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
 
 **Short answer:** In England and Northern Ireland, Stamp Duty Land Tax is 0% up to £125,000, 2% to £250,000, 5% to £925,000, 10% to £1.5 million and 12% above; a £295,000 home costs £4,750. First-time buyers pay nothing up to £300,000 and 5% from £300,001 to £500,000; additional homes pay 5% on top of each band.
 
-Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://andreiturcea-creator.github.io/uk-money-calcs/stamp-duty.html.md)
+Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/stamp-duty.html.md)
 
 **General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
-**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Keeping your own records?** The UK Sole Trader Kit is a £9 spreadsheet for Google Sheets and Excel: an income log, expenses mapped to SA103 boxes, a live 2026/27 tax and Class 4 NI estimate, and an invoice template. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ##
 
 Rates from 1 April 2025: 0% up to £125k, 2% £125k–£250k, 5% £250k–£925k, 10% £925k–£1.5m, 12% above. First-time buyers pay 0% up to £300k and 5% from £300k to £500k; relief is lost above £500k. Additional homes pay 5% on top of each band.
 
-**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://andreiturcea-creator.github.io/uk-freelancer-kit/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
+**Want this in a spreadsheet?** If you would rather not build your own tracker, the UK Sole Trader Kit (£9, Google Sheets and Excel) logs income, maps expenses to SA103 boxes, estimates your 2026/27 Income Tax and Class 4 NI, reminds you about payments on account and includes an invoice template. It is a template, not advice, and the free guides here stay free. [See what is inside](https://kit.andreiturcea.com/) · [Get the kit (£9)](https://turceapaul.gumroad.com/l/bmykeg)
 
 ## What is the formula, in plain text?
 
@@ -48,7 +48,7 @@ Rates in force from 1 April 2025, checked against GOV.UK on 15 October 2026. Not
 
 GOV.UK sources (checked 15 October 2026): [https://www.gov.uk/stamp-duty-land-tax/residential-property-rates](https://www.gov.uk/stamp-duty-land-tax/residential-property-rates)
 
-Machine-readable rates: [api/rates-2026-27.json](https://andreiturcea-creator.github.io/uk-money-calcs/api/rates-2026-27.json).
+Machine-readable rates: [api/rates-2026-27.json](https://calcs.andreiturcea.com/api/rates-2026-27.json).
 
 ---
 Disclaimer: estimates for information only, not financial, tax or legal advice.
