@@ -4,7 +4,7 @@
 <h1>UK VAT calculator</h1><div class=card><label>Amount £ <input id=a type=number value=100></label>
 <select id=r><option value=.2>20% standard</option><option value=.05>5% reduced</option><option value=0>0% zero</option></select>
 <button onclick=v(1)>Add VAT</button> <button onclick=v(0)>Remove VAT</button><h2 id=o></h2></div>
-<p>To take VAT out of a gross price at 20%, divide by 1.2. Don't just subtract 20%.</p>
+<p>To take VAT out of a gross price at 20%, divide by 1.2. Don't just subtract 20%.</p><p>Checking whether you need to register? Use the <a href="vat-threshold-checker.html">VAT threshold checker (£90,000)</a>. Source: <a href="https://www.gov.uk/vat-registration/when-to-register" rel="nofollow">GOV.UK</a>.</p>
 <script>function v(add){let a=+document.getElementById('a').value,r=+document.getElementById('r').value;let net=add?a:a/(1+r),gross=add?a*(1+r):a;
 o.textContent=`Net £${net.toFixed(2)} · VAT £${(gross-net).toFixed(2)} · Gross £${gross.toFixed(2)}`}</script>
 <footer><b>Disclaimer:</b> estimates for information only, not financial, tax or legal advice. Rates last checked against GOV.UK on 15 October 2026 (2026/27 tax year). Confirm with GOV.UK or a qualified adviser before acting. · <a href="about.html">About & disclosures</a></footer></body></html>
