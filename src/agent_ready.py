@@ -4,7 +4,8 @@
 # Standard library only (runs on the plain Actions runner).
 import os, re, json, html
 from html.parser import HTMLParser
-R = "https://andreiturcea-creator.github.io"
+R = "https://andreiturcea-creator.github.io"  # legacy, use SB(site)
+from seo_pages import DOMAINS, SB
 DATE, DATE_H = "2026-10-15", "15 October 2026"
 BUY = "https://turceapaul.gumroad.com/l/bmykeg"
 SITES = {
@@ -172,7 +173,7 @@ def kit_json():
 
 def openapi(site,name,path,desc):
     return {"openapi":"3.1.0","info":{"title":name+" static data","version":DATE,"description":"Static, read-only JSON files. No authentication, no parameters."},
-     "servers":[{"url":f"{R}/{site}"}],"paths":{"/"+path:{"get":{"operationId":"getData","summary":desc,"responses":{"200":{"description":"JSON document","content":{"application/json":{}}}}}}}}
+     "servers":[{"url":SB(site)}],"paths":{"/"+path:{"get":{"operationId":"getData","summary":desc,"responses":{"200":{"description":"JSON document","content":{"application/json":{}}}}}}}}
 
 # ---------- HTML -> Markdown ----------
 class MD(HTMLParser):
@@ -254,7 +255,7 @@ def kind(site,fn):
     return "page"
 
 def graph(site,fn,title,desc,h1,k):
-    S=SITES[site]; base=f"{R}/{site}/"; url=base+("" if fn=="index.html" else fn)
+    S=SITES[site]; base=SB(site)+"/"; url=base+("" if fn=="index.html" else fn)
     org={"@type":"Organization","@id":base+"#org","name":S["name"],"url":base}
     g=[{"@type":"WebSite","@id":base+"#website","name":S["name"],"url":base,"description":S["summary"],"inLanguage":"en-GB","publisher":{"@id":base+"#org"}},org,
        {"@type":"WebPage","@id":url+"#webpage","url":url,"name":title,"description":desc,"inLanguage":"en-GB","isPartOf":{"@id":base+"#website"},"datePublished":DATE,"dateModified":DATE,"lastReviewed":DATE,
@@ -273,7 +274,7 @@ def graph(site,fn,title,desc,h1,k):
     return '<script type="application/ld+json">'+json.dumps(j,ensure_ascii=False).replace("</","<\\/")+'</script>'
 
 def process_site(B,site):
-    d=f"{B}/{site}/site"; S=SITES[site]; base=f"{R}/{site}/"; pages=[]
+    d=f"{B}/{site}/site"; S=SITES[site]; base=SB(site)+"/"; pages=[]
     checked=(f"Last checked against GOV.UK: <time datetime=\"{DATE}\">{DATE_H}</time>" if S["gov"] else "No tax figures on this site, so no GOV.UK check applies; tool details come from each project's public GitHub repository")
     for fn in sorted(f for f in os.listdir(d) if f.endswith(".html")):
         h=open(f"{d}/{fn}").read()

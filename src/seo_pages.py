@@ -1,7 +1,9 @@
 # SEO pages added 15 Oct 2026. Figures checked against GOV.UK on 15 Oct 2026.
 import os, json, html
-R = "https://andreiturcea-creator.github.io"
-CALCS, KIT, AI = R+"/uk-money-calcs/", R+"/uk-freelancer-kit/", R+"/selfhost-ai-dir/"
+R = "https://andreiturcea-creator.github.io"  # legacy, use SB(site)
+DOMAINS = {"uk-money-calcs": "calcs.andreiturcea.com", "uk-freelancer-kit": "kit.andreiturcea.com", "selfhost-ai-dir": "ai.andreiturcea.com"}
+def SB(site): return "https://" + DOMAINS[site]
+CALCS, KIT, AI = SB("uk-money-calcs")+"/", SB("uk-freelancer-kit")+"/", SB("selfhost-ai-dir")+"/"
 BUY = "https://turceapaul.gumroad.com/l/bmykeg"
 G = {
  "it": "https://www.gov.uk/income-tax-rates",
@@ -33,7 +35,7 @@ FOOT = {"tax": "Rates last checked against GOV.UK on 15 October 2026 (2026/27 ta
 def wpage(d, fn, title, desc, body, nav, faq=None, foot="tax"):
     os.makedirs(d, exist_ok=True)
     extra = ld(faq) if faq else ""
-    canon = f'{R}/{d.split("/")[-2]}/{fn}'
+    canon = f'{SB(d.split("/")[-2])}/{"" if fn=="index.html" else fn}'
     open(f"{d}/{fn}", "w").write(f"""<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title><meta name="description" content="{html.escape(desc)}"><link rel="canonical" href="{canon}"><meta name="google-site-verification" content="4ClukxyHFtP7GSHUR0D75dGuQpNh220_u6YMPQ5exTw" /><link rel="stylesheet" href="style.css">{extra}</head><body>
 <header><h3><a href="index.html" style="text-decoration:none">{nav}</a></h3></header>{body}{faq_html(faq) if faq else ""}

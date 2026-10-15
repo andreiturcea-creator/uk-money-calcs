@@ -1,6 +1,7 @@
 import os,json,sys
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import seo_pages
+from seo_pages import DOMAINS, SB
 B=os.environ.get("BUILD_DIR","/workspace/research/agent-biz")
 CSS="""body{font-family:system-ui,sans-serif;max-width:860px;margin:0 auto;padding:24px;color:#1a1a2e;line-height:1.55}
 header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ddd;margin-bottom:24px}
@@ -59,7 +60,7 @@ o.textContent=`Net £${net.toFixed(2)} · VAT £${(gross-net).toFixed(2)} · Gro
 }
 idx='<h1>Free, accurate UK money calculators</h1><p>Fast and private: everything runs in your browser and nothing is stored.</p>'+''.join(f'<div class=card><a href="{k}"><b>{v[0]}</b></a><br>{v[1]}</div>' for k,v in calcs.items())
 idx+='<h2>New for 2026/27</h2>'+''.join(f'<div class=card><a href="{k}"><b>{t}</b></a><br>{ds}</div>' for k,t,ds in [("self-employed-tax-calculator.html","Self-employed tax calculator 2026/27","Income Tax and Class 4 NI on sole trader profits."),("dividend-tax-calculator.html","Dividend tax calculator 2026/27","£500 allowance; 10.75%, 35.75% and 39.35% rates."),("student-loan-repayment-calculator.html","Student loan repayment calculator","Plans 1, 2, 4, 5 and Postgraduate."),("vat-threshold-checker.html","VAT threshold checker","Rolling 12-month £90,000 test."),("income-tax-bands-2026-27.html","Income Tax and NI rates 2026/27","All the bands on one page, with GOV.UK sources.")])
-idx+='<div class=card><b>Self-employed?</b> Free guides on <a href="https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-mtd.html">Making Tax Digital for Income Tax</a>, <a href="https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-payments-on-account.html">payments on account</a> and the <a href="https://andreiturcea-creator.github.io/uk-freelancer-kit/">UK Sole Trader Kit</a>.</div>'
+idx+='<div class=card><b>Self-employed?</b> Free guides on <a href="https://kit.andreiturcea.com/guide-mtd.html">Making Tax Digital for Income Tax</a>, <a href="https://kit.andreiturcea.com/guide-payments-on-account.html">payments on account</a> and the <a href="https://kit.andreiturcea.com/">UK Sole Trader Kit</a>.</div>'
 idx+='<div class="card sp"><b>Partner offers: coming soon.</b> Any sponsored or affiliate link will be clearly labelled.</div>'
 page(d,"index.html","UK Money Calculators: take-home pay, stamp duty, VAT","Free UK calculators for salary, tax, stamp duty and VAT.",idx,N)
 for k,(t,ds,b) in calcs.items(): page(d,k,t+" | "+N,ds,b,N)
@@ -99,7 +100,7 @@ page(d,"index.html","UK Sole Trader Tax & Invoice Kit (Google Sheets) | £9","Se
 """<h1>The UK Sole Trader Kit: £9</h1><p>A spreadsheet that tracks income and allowable expenses using HMRC SA103 categories, estimates your tax and Class 4 NI, and includes an invoice template. Works in Google Sheets and Excel.</p>
 <div class=card><ul><li>Income log, plus expenses mapped to SA103 boxes</li><li>Live tax and NI estimate for 2026/27</li><li>Payments-on-account reminder</li><li>Invoice template</li><li>MTD for Income Tax: who it applies to from April 2026 (£50k+) and April 2027 (£30k+)</li></ul>
 <a href="sample.csv">Download a free sample sheet (CSV)</a><br><br><a href="https://turceapaul.gumroad.com/l/bmykeg"><button>Buy the kit, £9</button></a></div>
-<h2>Free guides</h2><ul><li><a href="guide-mtd.html">Making Tax Digital for Income Tax: who needs it and when</a></li><li><a href="guide-mtd-quarterly-deadlines.html">MTD quarterly update deadlines</a></li><li><a href="guide-mtd-software.html">MTD software: spreadsheets and bridging</a></li><li><a href="guide-self-assessment-deadlines.html">Self Assessment deadlines 2026/27</a></li><li><a href="guide-payments-on-account.html">Payments on account explained</a></li><li><a href="guide-mileage-allowance.html">Mileage allowance 2026/27 (55p)</a></li><li><a href="guide-allowable-expenses.html">Allowable expenses for sole traders</a></li></ul><h2>Free calculators</h2><a href="https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html">Self-employed tax 2026/27</a> · <a href="https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html">VAT threshold checker</a> · <a href="https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html">Dividend tax</a>""","UK Freelancer Kit")
+<h2>Free guides</h2><ul><li><a href="guide-mtd.html">Making Tax Digital for Income Tax: who needs it and when</a></li><li><a href="guide-mtd-quarterly-deadlines.html">MTD quarterly update deadlines</a></li><li><a href="guide-mtd-software.html">MTD software: spreadsheets and bridging</a></li><li><a href="guide-self-assessment-deadlines.html">Self Assessment deadlines 2026/27</a></li><li><a href="guide-payments-on-account.html">Payments on account explained</a></li><li><a href="guide-mileage-allowance.html">Mileage allowance 2026/27 (55p)</a></li><li><a href="guide-allowable-expenses.html">Allowable expenses for sole traders</a></li></ul><h2>Free calculators</h2><a href="https://calcs.andreiturcea.com/self-employed-tax-calculator.html">Self-employed tax 2026/27</a> · <a href="https://calcs.andreiturcea.com/vat-threshold-checker.html">VAT threshold checker</a> · <a href="https://calcs.andreiturcea.com/dividend-tax-calculator.html">Dividend tax</a>""","UK Freelancer Kit")
 page(d,"about.html","About","About","<h1>About</h1><p>Templates only. Not tax advice.</p>","UK Freelancer Kit")
 open(f"{d}/sample.csv","w").write("Date,Description,Type,SA103 category,Amount\n2026-04-10,Client A invoice 001,Income,Turnover,1200\n2026-04-12,Adobe subscription,Expense,Office costs,19.97\n2026-04-15,Train to client,Expense,Travel,34.50\n2026-04-30,Accountancy software,Expense,Financial costs,12.00\n")
 seo_pages.build(B)
@@ -107,8 +108,9 @@ import monetise
 monetise.build(B)
 for s in ["uk-money-calcs","selfhost-ai-dir","uk-freelancer-kit"]:
     dd=f"{B}/{s}/site"; urls=[f for f in os.listdir(dd) if f.endswith(".html")]
-    open(f"{dd}/sitemap.xml","w").write('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f"<url><loc>https://andreiturcea-creator.github.io/{s}/{'' if u=='index.html' else u}</loc><lastmod>2026-10-15</lastmod></url>" for u in sorted(urls))+"</urlset>")
-    open(f"{dd}/robots.txt","w").write("User-agent: *\nAllow: /\nSitemap: https://andreiturcea-creator.github.io/"+s+"/sitemap.xml\n")
+    open(f"{dd}/sitemap.xml","w").write('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f"<url><loc>{SB(s)}/{'' if u=='index.html' else u}</loc><lastmod>2026-10-15</lastmod></url>" for u in sorted(urls))+"</urlset>")
+    open(f"{dd}/CNAME","w").write(DOMAINS[s]+"\n")
+    open(f"{dd}/robots.txt","w").write("User-agent: *\nAllow: /\nSitemap: https://"+DOMAINS[s]+"/sitemap.xml\n")
 
 import agent_ready
 agent_ready.build(B)
