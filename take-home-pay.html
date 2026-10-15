@@ -1,5 +1,5 @@
 <!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>UK Take-Home Pay Calculator 2026/27 | UK Money Calcs</title><meta name="description" content="Work out your take-home pay after income tax, National Insurance, pension and student loan (England, Wales and NI)."><link rel="stylesheet" href="style.css"></head><body>
+<title>UK Take-Home Pay Calculator 2026/27 | UK Money Calcs</title><meta name="description" content="Work out your take-home pay after income tax, National Insurance, pension and student loan (England, Wales and NI)."><meta name="google-site-verification" content="4ClukxyHFtP7GSHUR0D75dGuQpNh220_u6YMPQ5exTw" /><link rel="stylesheet" href="style.css"></head><body>
 <header><h3><a href="index.html" style="text-decoration:none">UK Money Calcs</a></h3></header>
 <h1>UK take-home pay calculator 2026/27</h1><div class="card">
 <label>Gross annual salary £ <input id=s type=number value=35000></label><br><br>
@@ -13,4 +13,4 @@ function tax(t){let pa=12570;if(t>100000)pa=Math.max(0,pa-(t-100000)/2);let x=Ma
 function calc(){let s=+S('s'),p=s*(+S('p'))/100,g=s-p,t=tax(g),ni=Math.max(0,Math.min(g,50270)-12570)*.08+Math.max(0,g-50270)*.02,k=S('sl'),l=k>0?Math.max(0,g-SL[k][0])*SL[k][1]:0,n=g-t-ni-l;
 o.innerHTML=`<table><tr><th></th><th>Year</th><th>Month</th></tr>${[['Pension',p],['Income tax',t],['National Insurance',ni],['Student loan',l],['<b>Take-home</b>',n]].map(r=>`<tr><td>${r[0]}</td><td>£${r[1].toFixed(0)}</td><td>£${(r[1]/12).toFixed(0)}</td></tr>`).join('')}</table>`}
 function S(i){return document.getElementById(i).value}calc()</script>
-<footer><b>Disclaimer:</b> estimates for information only, not financial, tax or legal advice. Rates last checked against GOV.UK on 15 October 2026 (2026/27 tax year). Confirm with GOV.UK or a qualified adviser before acting. · <a href="about.html">About &amp; disclosures</a></footer></body></html>
+<footer><b>Disclaimer:</b> estimates for information only, not financial, tax or legal advice. Rates last checked against GOV.UK on 15 October 2026 (2026/27 tax year). Confirm with GOV.UK or a qualified adviser before acting. · <a href="about.html">About & disclosures</a></footer></body></html>
