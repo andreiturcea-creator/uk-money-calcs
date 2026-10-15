@@ -311,14 +311,14 @@ def process_site(B,site):
     L=[f"# {S['name']}","",f"> {S['summary']}","",f"Last updated {DATE}."+(f" Tax figures checked against GOV.UK on {DATE} (2026/27 tax year). Student loan thresholds are as shown on GOV.UK but not confirmed as 2026/27 figures." if site=="uk-money-calcs" else (f" Figures checked against GOV.UK on {DATE}." if S["gov"] else ""))+" Every page has a Markdown twin at the same URL plus `.md`. Information only, not financial or tax advice.",""]
     if site=="uk-freelancer-kit": L+=[f"Product: UK Sole Trader Kit, £9 GBP, buy at {BUY}",""]
     for kk in ("calc","article","page"):
-        it=[p for p in pages if p[3]==kk and p[0]!="about.html" and not (site=="selfhost-ai-dir" and kk=="page" and (p[0].startswith("tool-") or p[0].startswith("cat-")))]
+        it=[p for p in pages if p[3]==kk and p[0] not in ("about.html","privacy.html","cookies.html","affiliate-disclosure.html") and not (site=="selfhost-ai-dir" and kk=="page" and (p[0].startswith("tool-") or p[0].startswith("cat-")))]
         if it: L+=[f"## {groups[kk]}",""]+[f"- [{p[1].split(' | ')[0]}]({base}{p[0]}.md): {p[2]}" for p in it]+[""]
     if site=="selfhost-ai-dir":
         L+=["## Tools",""]+[f"- [{p[1].split(':')[0]}]({base}{p[0]}.md): {p[2]}" for p in pages if p[0].startswith("tool-")]+["","## Categories",""]+[f"- [{p[1].split('|')[0].strip()}]({base}{p[0]}.md): {p[2]}" for p in pages if p[0].startswith("cat-")]+[""]
     L+=["## Data",""f"",f"- [{jp}]({base}{jp}): {jd}",f"- [openapi.json]({base}openapi.json): OpenAPI 3.1 description of the static JSON file",f"- [llms-full.txt]({base}llms-full.txt): full plain-text content of every page",""]
-    L+=["## Optional","",f"- [About]({base}about.html.md): who runs the site and disclosures",f"- [Sitemap]({base}sitemap.xml): all URLs",""]
+    L+=["## Optional","",f"- [About]({base}about.html.md): who runs the site and disclosures",f"- [Privacy]({base}privacy.html.md): privacy notice (no analytics, no ads, no personal data collected)",f"- [Cookies]({base}cookies.html.md): cookie notice (no cookies set)",f"- [Affiliate disclosure]({base}affiliate-disclosure.html.md): how affiliate and referral links are labelled",f"- [Sitemap]({base}sitemap.xml): all URLs",""]
     open(f"{d}/llms.txt","w").write("\n".join(L))
-    open(f"{d}/llms-full.txt","w").write(f"# {S['name']} — full content\n\n> {S['summary']}\n\nGenerated {DATE}. Each section below is one page.\n\n"+"\n\n".join(f"<!-- {base}{p[0]} -->\n"+p[4] for p in pages))
+    open(f"{d}/llms-full.txt","w").write(f"# {S['name']}: full content\n\n> {S['summary']}\n\nGenerated {DATE}. Each section below is one page.\n\n"+"\n\n".join(f"<!-- {base}{p[0]} -->\n"+p[4] for p in pages))
     # sitemap + robots
     urls=[("" if f=="index.html" else f) for f in sorted(x for x in os.listdir(d) if x.endswith(".html"))]+[p[0]+".md" for p in pages]+["llms.txt","llms-full.txt",jp,"openapi.json"]
     open(f"{d}/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+"".join(f"<url><loc>{base}{u}</loc><lastmod>{DATE}</lastmod></url>" for u in urls)+"</urlset>\n")

@@ -103,6 +103,8 @@ page(d,"index.html","UK Sole Trader Tax & Invoice Kit (Google Sheets) | £9","Se
 page(d,"about.html","About","About","<h1>About</h1><p>Templates only. Not tax advice.</p>","UK Freelancer Kit")
 open(f"{d}/sample.csv","w").write("Date,Description,Type,SA103 category,Amount\n2026-04-10,Client A invoice 001,Income,Turnover,1200\n2026-04-12,Adobe subscription,Expense,Office costs,19.97\n2026-04-15,Train to client,Expense,Travel,34.50\n2026-04-30,Accountancy software,Expense,Financial costs,12.00\n")
 seo_pages.build(B)
+import monetise
+monetise.build(B)
 for s in ["uk-money-calcs","selfhost-ai-dir","uk-freelancer-kit"]:
     dd=f"{B}/{s}/site"; urls=[f for f in os.listdir(dd) if f.endswith(".html")]
     open(f"{dd}/sitemap.xml","w").write('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f"<url><loc>https://andreiturcea-creator.github.io/{s}/{'' if u=='index.html' else u}</loc><lastmod>2026-10-15</lastmod></url>" for u in sorted(urls))+"</urlset>")

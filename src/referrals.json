@@ -1,0 +1,8 @@
+{
+ "_readme": "Referral and affiliate link slots. PLACEHOLDERS: leave url empty until you have a real, approved referral URL. Entries with an empty url are not rendered anywhere, so no fake links go live. Once filled in, links are output with rel=\"sponsored noopener\" and an 'Affiliate link' label. Edit this file on main only; the build picks it up.",
+ "slots": [
+  {"id": "anna", "name": "ANNA Money", "sites": ["uk-freelancer-kit", "uk-money-calcs"], "url": "", "blurb": "Business current account for sole traders and small companies, with built-in invoicing and tax estimates."},
+  {"id": "tide", "name": "Tide", "sites": ["uk-freelancer-kit", "uk-money-calcs"], "url": "", "blurb": "Business current account with invoicing and expense categorisation, popular with sole traders."},
+  {"id": "digitalocean", "name": "DigitalOcean", "sites": ["selfhost-ai-dir"], "url": "", "blurb": "Cloud VPS (Droplets) and GPU servers that can run most of the self-hosted tools listed here."}
+ ]
+}
