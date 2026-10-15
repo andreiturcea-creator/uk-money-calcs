@@ -249,14 +249,17 @@ Disclaimer: estimates for information only, not financial, tax or legal advice.
 Source: https://calcs.andreiturcea.com/
 Last updated: 2026-10-15 · Last checked against GOV.UK: 2026-10-15
 
+Free UK tax and money calculators
+
+# Free, accurate UK money calculators
 
 **Short answer:** Free UK calculators for 2026/27: take-home pay, self-employed tax, dividend tax, student loan, Stamp Duty and VAT. Every calculator states its formula, rates and worked examples in plain text, with GOV.UK sources.
 
 Last updated: 15 October 2026 · Last checked against GOV.UK: 15 October 2026 · [Markdown version](https://calcs.andreiturcea.com/index.html.md)
 
-**General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
-
 Fast and private: everything runs in your browser and nothing is stored.
+
+**General information, not tax or financial advice.** Check GOV.UK or speak to a qualified adviser about your own situation.
 
 [**UK Take-Home Pay Calculator 2026/27**](https://calcs.andreiturcea.com/take-home-pay.html)
 Work out your take-home pay after income tax, National Insurance, pension and student loan (England, Wales and NI).
@@ -270,7 +273,7 @@ Add VAT to a price or take it off, at 20%, 5% or 0%.
 [**Pro Rata Salary Calculator UK**](https://calcs.andreiturcea.com/pro-rata-salary.html)
 Turn a full-time salary into a part-time one, by hours or days per week.
 
-## Which 2026/27 calculators are new?
+## New for 2026/27
 
 [**Self-employed tax calculator 2026/27**](https://calcs.andreiturcea.com/self-employed-tax-calculator.html)
 Income Tax and Class 4 NI on sole trader profits.
