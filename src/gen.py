@@ -1,4 +1,6 @@
-import os,json
+import os,json,sys
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+import seo_pages
 B=os.environ.get("BUILD_DIR","/workspace/research/agent-biz")
 CSS="""body{font-family:system-ui,sans-serif;max-width:860px;margin:0 auto;padding:24px;color:#1a1a2e;line-height:1.55}
 header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ddd;margin-bottom:24px}
@@ -24,7 +26,7 @@ calcs={
 <label>Pension (salary sacrifice) % <input id=p type=number value=5 style="width:70px"></label>
 <label>Student loan <select id=sl><option value=0>None</option><option value=1>Plan 1</option><option value=2>Plan 2</option><option value=4>Plan 4 (Scotland)</option><option value=5>Plan 5</option><option value=9>Postgrad</option></select></label><br><br>
 <button onclick=calc()>Calculate</button><div id=o></div></div>
-<h2>How it works</h2><p>Personal allowance £12,570 (tapered by £1 per £2 above £100,000). Basic rate 20% to £50,270, higher 40% to £125,140, additional 45% above. Employee Class 1 NI: 8% between £12,570 and £50,270, 2% above. Thresholds are frozen until April 2031. Scotland uses different income tax bands, which this version does not cover yet.</p>
+<h2>How it works</h2><p>Personal allowance £12,570 (tapered by £1 per £2 above £100,000). Basic rate 20% to £50,270, higher 40% to £125,140, additional 45% above. Employee Class 1 NI: 8% between £12,570 and £50,270, 2% above. Thresholds are frozen until April 2031. Scotland uses different income tax bands, which this version does not cover yet.</p><p>Sources: <a href="https://www.gov.uk/income-tax-rates" rel="nofollow">GOV.UK Income Tax rates</a> · <a href="https://www.gov.uk/national-insurance-rates-letters" rel="nofollow">GOV.UK NI rates</a> · <a href="https://www.gov.uk/repaying-your-student-loan/what-you-pay" rel="nofollow">GOV.UK student loan thresholds</a>. Related: <a href="self-employed-tax-calculator.html">self-employed tax</a> · <a href="dividend-tax-calculator.html">dividend tax</a> · <a href="student-loan-repayment-calculator.html">student loan</a> · <a href="income-tax-bands-2026-27.html">2026/27 rates</a></p>
 <script>
 const SL={1:[26900,.09],2:[29385,.09],4:[33795,.09],5:[25000,.09],9:[21000,.06]};
 function tax(t){let pa=12570;if(t>100000)pa=Math.max(0,pa-(t-100000)/2);let x=Math.max(0,t-pa),b=Math.min(x,37700),h=Math.min(Math.max(0,x-37700),125140-37700-pa>0?125140-pa-37700:0),a=Math.max(0,x-b-h);return b*.2+h*.4+a*.45}
@@ -46,7 +48,7 @@ o.textContent='Stamp duty: £'+Math.round(t).toLocaleString('en-GB')}c()</script
 <h1>UK VAT calculator</h1><div class=card><label>Amount £ <input id=a type=number value=100></label>
 <select id=r><option value=.2>20% standard</option><option value=.05>5% reduced</option><option value=0>0% zero</option></select>
 <button onclick=v(1)>Add VAT</button> <button onclick=v(0)>Remove VAT</button><h2 id=o></h2></div>
-<p>To take VAT out of a gross price at 20%, divide by 1.2. Don't just subtract 20%.</p>
+<p>To take VAT out of a gross price at 20%, divide by 1.2. Don't just subtract 20%.</p><p>Checking whether you need to register? Use the <a href="vat-threshold-checker.html">VAT threshold checker (£90,000)</a>. Source: <a href="https://www.gov.uk/vat-registration/when-to-register" rel="nofollow">GOV.UK</a>.</p>
 <script>function v(add){let a=+document.getElementById('a').value,r=+document.getElementById('r').value;let net=add?a:a/(1+r),gross=add?a*(1+r):a;
 o.textContent=`Net £${net.toFixed(2)} · VAT £${(gross-net).toFixed(2)} · Gross £${gross.toFixed(2)}`}</script>"""),
 "pro-rata-salary.html":("Pro Rata Salary Calculator UK","Turn a full-time salary into a part-time one, by hours or days per week.","""
@@ -56,6 +58,8 @@ o.textContent=`Net £${net.toFixed(2)} · VAT £${(gross-net).toFixed(2)} · Gro
 <p>Holiday entitlement is pro-rated in the same way: 5.6 weeks × your days per week.</p>"""),
 }
 idx='<h1>Free, accurate UK money calculators</h1><p>Fast and private: everything runs in your browser and nothing is stored.</p>'+''.join(f'<div class=card><a href="{k}"><b>{v[0]}</b></a><br>{v[1]}</div>' for k,v in calcs.items())
+idx+='<h2>New for 2026/27</h2>'+''.join(f'<div class=card><a href="{k}"><b>{t}</b></a><br>{ds}</div>' for k,t,ds in [("self-employed-tax-calculator.html","Self-employed tax calculator 2026/27","Income Tax and Class 4 NI on sole trader profits."),("dividend-tax-calculator.html","Dividend tax calculator 2026/27","£500 allowance; 10.75%, 35.75% and 39.35% rates."),("student-loan-repayment-calculator.html","Student loan repayment calculator","Plans 1, 2, 4, 5 and Postgraduate."),("vat-threshold-checker.html","VAT threshold checker","Rolling 12-month £90,000 test."),("income-tax-bands-2026-27.html","Income Tax and NI rates 2026/27","All the bands on one page, with GOV.UK sources.")])
+idx+='<div class=card><b>Self-employed?</b> Free guides on <a href="https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-mtd.html">Making Tax Digital for Income Tax</a>, <a href="https://andreiturcea-creator.github.io/uk-freelancer-kit/guide-payments-on-account.html">payments on account</a> and the <a href="https://andreiturcea-creator.github.io/uk-freelancer-kit/">UK Sole Trader Kit</a>.</div>'
 idx+='<div class="card sp"><b>Partner offers: coming soon.</b> Any sponsored or affiliate link will be clearly labelled.</div>'
 page(d,"index.html","UK Money Calculators: take-home pay, stamp duty, VAT","Free UK calculators for salary, tax, stamp duty and VAT.",idx,N)
 for k,(t,ds,b) in calcs.items(): page(d,k,t+" | "+N,ds,b,N)
@@ -77,6 +81,7 @@ cats=sorted({t[3] for t in tools})
 body='<h1>Self-hostable AI tools, ranked and kept fresh</h1><p>Open-source AI you can run on your own VPS or laptop. Stars and activity refresh every day from GitHub.</p><div class="card sp"><b>Featured listings: coming soon</b> (£49/month, always labelled). <a href="advertise.html">Advertise</a></div><input id=q placeholder="Filter…" oninput="f()" style="width:100%"><div id=l>'
 body+=''.join(f'<div class=card data-t="{(a+b+e).lower()}"><b><a href="tool-{c.split("/")[1].lower()}.html">{a}</a></b> <span class=tag>{e}</span><span class=tag>{f}</span><br>{b} · <a href="https://github.com/{c}" rel="nofollow">GitHub</a></div>' for a,b,c,e,f in tools)
 body+='</div><script>function f(){let v=q.value.toLowerCase();document.querySelectorAll("#l .card").forEach(c=>c.style.display=c.dataset.t.includes(v)?"":"none")}</script>'
+body+='<h2>Guides</h2><a class=tag href="best-self-hosted-chatgpt-alternatives.html">Best self-hosted ChatGPT alternatives</a><a class=tag href="ollama-vs-llama-cpp-vs-vllm.html">Ollama vs llama.cpp vs vLLM</a><a class=tag href="open-webui-vs-librechat-vs-anythingllm.html">Open WebUI vs LibreChat vs AnythingLLM</a>'
 body+='<h2>Categories</h2>'+''.join(f'<a class=tag href="cat-{x.lower().replace(" ","-")}.html">{x}</a>' for x in cats)
 page(d,"index.html","Self-Hosted AI Tools Directory | SelfHostAI","A curated directory of open-source AI tools you can self-host, refreshed every day.",body,N)
 for a,b,c,e,f in tools:
@@ -93,13 +98,12 @@ d=f"{B}/uk-freelancer-kit/site"
 page(d,"index.html","UK Sole Trader Tax & Invoice Kit (Google Sheets) | £9","Self-assessment income and expense tracker, MTD-ready categories, invoice template and tax estimate for UK sole traders.",
 """<h1>The UK Sole Trader Kit: £9</h1><p>A spreadsheet that tracks income and allowable expenses using HMRC SA103 categories, estimates your tax and Class 4 NI, and includes an invoice template. Works in Google Sheets and Excel.</p>
 <div class=card><ul><li>Income log, plus expenses mapped to SA103 boxes</li><li>Live tax and NI estimate for 2026/27</li><li>Payments-on-account reminder</li><li>Invoice template</li><li>MTD for Income Tax: who it applies to from April 2026 (£50k+) and April 2027 (£30k+)</li></ul>
-<a href="sample.csv">Download a free sample sheet (CSV)</a><br><br><button disabled style="background:#999">Buy: £9 (coming soon)</button></div>
-<h2>Free guides</h2><a href="guide-allowable-expenses.html">Allowable expenses for sole traders</a> · <a href="guide-mtd.html">Making Tax Digital 2026 explained</a>""","UK Freelancer Kit")
-page(d,"guide-allowable-expenses.html","Allowable expenses for UK sole traders (2026 guide)","Which costs you can claim on self-assessment.","<h1>Allowable expenses</h1><p>Common categories: office costs, travel (not commuting), clothing (uniforms only), staff, stock, financial costs, premises, marketing, training related to your current business. Instead of actual costs you can use simplified expenses: 55p/mile for the first 10,000 business miles (rate raised from 45p in June 2026), then 25p, and flat-rate working-from-home allowances. You can choose the £1,000 trading allowance instead of claiming expenses.</p><p>Source: GOV.UK, 'Expenses if you're self-employed'.</p>","UK Freelancer Kit")
-page(d,"guide-mtd.html","Making Tax Digital for Income Tax 2026 explained","Who needs MTD ITSA and when.","<h1>MTD for Income Tax</h1><p>From 6 April 2026, sole traders and landlords with qualifying income over £50,000 must keep digital records and send quarterly updates. The threshold drops to £30,000 from April 2027 and £20,000 from April 2028. You need compatible software; a spreadsheet with bridging software is allowed.</p>","UK Freelancer Kit")
+<a href="sample.csv">Download a free sample sheet (CSV)</a><br><br><a href="https://turceapaul.gumroad.com/l/bmykeg"><button>Buy the kit, £9</button></a></div>
+<h2>Free guides</h2><ul><li><a href="guide-mtd.html">Making Tax Digital for Income Tax: who needs it and when</a></li><li><a href="guide-mtd-quarterly-deadlines.html">MTD quarterly update deadlines</a></li><li><a href="guide-mtd-software.html">MTD software: spreadsheets and bridging</a></li><li><a href="guide-self-assessment-deadlines.html">Self Assessment deadlines 2026/27</a></li><li><a href="guide-payments-on-account.html">Payments on account explained</a></li><li><a href="guide-mileage-allowance.html">Mileage allowance 2026/27 (55p)</a></li><li><a href="guide-allowable-expenses.html">Allowable expenses for sole traders</a></li></ul><h2>Free calculators</h2><a href="https://andreiturcea-creator.github.io/uk-money-calcs/self-employed-tax-calculator.html">Self-employed tax 2026/27</a> · <a href="https://andreiturcea-creator.github.io/uk-money-calcs/vat-threshold-checker.html">VAT threshold checker</a> · <a href="https://andreiturcea-creator.github.io/uk-money-calcs/dividend-tax-calculator.html">Dividend tax</a>""","UK Freelancer Kit")
 page(d,"about.html","About","About","<h1>About</h1><p>Templates only. Not tax advice.</p>","UK Freelancer Kit")
 open(f"{d}/sample.csv","w").write("Date,Description,Type,SA103 category,Amount\n2026-04-10,Client A invoice 001,Income,Turnover,1200\n2026-04-12,Adobe subscription,Expense,Office costs,19.97\n2026-04-15,Train to client,Expense,Travel,34.50\n2026-04-30,Accountancy software,Expense,Financial costs,12.00\n")
+seo_pages.build(B)
 for s in ["uk-money-calcs","selfhost-ai-dir","uk-freelancer-kit"]:
     dd=f"{B}/{s}/site"; urls=[f for f in os.listdir(dd) if f.endswith(".html")]
-    open(f"{dd}/sitemap.xml","w").write('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f"<url><loc>https://andreiturcea-creator.github.io/{s}/{u}</loc></url>" for u in urls)+"</urlset>")
+    open(f"{dd}/sitemap.xml","w").write('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f"<url><loc>https://andreiturcea-creator.github.io/{s}/{'' if u=='index.html' else u}</loc><lastmod>2026-10-15</lastmod></url>" for u in sorted(urls))+"</urlset>")
     open(f"{dd}/robots.txt","w").write("User-agent: *\nAllow: /\nSitemap: https://andreiturcea-creator.github.io/"+s+"/sitemap.xml\n")
